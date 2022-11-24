@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - DOMImplementation
+date:
+- 2022-11-14 13:00:15
 ---
 
 <ul style="list-style-type:disc">

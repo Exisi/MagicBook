@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - ‹script›
+date:
+- 2022-11-1 12:53:23
 ---
 
 <ul style="list-style-type:disc">

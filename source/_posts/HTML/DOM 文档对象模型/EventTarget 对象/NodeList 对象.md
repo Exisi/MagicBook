@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - NodeList
+date:
+- 2022-11-18 15:00:15
 ---
 
 <ul style="list-style-type:disc">

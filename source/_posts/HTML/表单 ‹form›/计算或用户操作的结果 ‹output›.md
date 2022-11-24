@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - ‹output›
+date:
+- 2022-11-7 17:25:15
 ---
 
 <ul style="list-style-type:disc">

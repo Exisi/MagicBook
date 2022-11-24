@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - EventTarget
+date:
+- 2022-11-9 14:05:15
 ---
 
 <ul style="list-style-type:disc">

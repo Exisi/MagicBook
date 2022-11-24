@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - ‹textarea›
+date:
+- 2022-11-7 16:15:15
 ---
 
 <ul style="list-style-type:disc">

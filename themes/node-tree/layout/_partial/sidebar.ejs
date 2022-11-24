@@ -43,6 +43,15 @@
 			<%
 				<!-- 递归输出侧边栏目录 tree -->
 				const showTree = (input,root) => {
+					
+					<!-- 按照日期排序 -->
+					input.sort(function(a, b){
+						let date ={
+							a:new Date(a.post.date),
+							b:new Date(b.post.date),
+						}
+						return (date.a - date.b);
+					});
 
 					<!-- 循环输出 html 结构 -->
 					input.forEach(function(node) {

@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - HTMLCollection
+date:
+- 2022-11-15 12:20:15
 ---
 
 <ul style="list-style-type:disc">

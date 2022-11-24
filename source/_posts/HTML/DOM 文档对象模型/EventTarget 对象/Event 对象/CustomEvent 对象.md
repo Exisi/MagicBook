@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - CustomEvent
+date:
+- 2022-11-14 17:00:15
 ---
 
 <ul style="list-style-type:disc">

@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - DOMException
+date:
+- 2022-11-13 13:00:15
 ---
 
 <ul style="list-style-type:disc">

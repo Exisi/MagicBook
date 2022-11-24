@@ -4,6 +4,8 @@ categories:
 tags:
 - ‹col›
 - ‹colgroup›
+date:
+- 2022-11-4 14:45:15
 ---
 
 <table summary="" cellspacing="0"

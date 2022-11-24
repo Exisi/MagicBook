@@ -3,6 +3,8 @@ categories:
 - HTML
 tags:
 - Promise
+date:
+- 2022-11-19 15:00:15
 ---
 
 <ul style="list-style-type:disc">
