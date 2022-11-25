@@ -1,21 +1,17 @@
-![Hexo Logo](https://github.com/vercel/vercel/blob/main/packages/frameworks/logos/hexo.svg)
+<img src=https://raw.githubusercontent.com/Exisi/MagicBook/main/favicon.ico width=20% />
 
-# Hexo Example
+# MagicBook
+- MagicBook （魔法书）是基于 Hexo 构建的笔记网站，用于存放已归档的笔记
+- 所有笔记整理均来源于网络的文章博客等，全部为手动更新，不能保证笔记的时效性，仅供查阅。
 
-This directory is a brief example of a [Hexo](https://hexo.io/) site that can be deployed to Vercel with zero configuration.
+### 关于本站
+  - 为了让我在任何地方都可以查阅，我建立了 MagicBook（魔法书）
 
-## Deploy Your Own
+  1. 起初受限于 OneNote 笔记的导出问题，最后还是选择了最简单的方法进行，
 
-Deploy your own Hexo project with Vercel.
+  2. 所有笔记来自 OneNote 笔记富文本 转 HTML 格式，笔记的 Markdown 文件仅用于为笔记添加标签。内容主体还是 HTML 格式
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/hexo&template=hexo)
+  3. 图片为 base64 进行保存 (虽然这看起来不太明智，不过对于大量的笔记，迁移的效率比较高:))
 
-_Live Example: https://hexo-template.vercel.app_
-
-### How We Created This Example
-
-To get started with Hexo for deployment with Vercel, you can use the [Hexo CLI](https://hexo.io/docs/index.html#Installation) to initialize the project:
-
-```shell
-$ hexo init project-name
-```
+### 主题
+- Node-Tree 是基于 Tree 修改的目录结构的树状主题, 如果对主题有兴趣可以前往相关文档进行查看：[Node-Tree文档](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree)

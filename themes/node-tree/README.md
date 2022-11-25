@@ -1,6 +1,6 @@
 ## Hexo 主题 Node-Tree
 
-Node-Tree 是基于 Tree 修改的目录结构的树状主题，修改和增加了部分功能：
+Node-Tree 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的目录结构的树状主题，修改和增加了部分功能：
  1. 将原本的Ascii码排序修改为日期进行排序
  2. 适配手机端界面
  3. 调整了界面样式
