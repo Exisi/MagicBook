@@ -7,6 +7,17 @@ links:
   
 favicon: /favicon.ico
 
+#giscus
+giscus:
+    # 评论
+    enableComment: true
+    # Discussion 项目地址
+    repo: Exisi/MagicBook
+    # Discussion 项目
+    repoid: R_kgDOIfu7zg
+    # 反应
+    reactions: 1
+
 # valine
 valine:
     # 评论

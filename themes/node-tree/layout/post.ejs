@@ -3,62 +3,57 @@
 </h1>
 <div class="article-meta">
 	<% if (theme.valine.enableCounter){ %>
-		<span>
-			阅读量:<span id="<%= url_for(page.path) %>" class="leancloud_visitors"
-				data-flag-title="<%- page.title %>"></span>
-		</span>
-		<% } %>
-			<span>
-				<%- config.author %>
-			</span>
-			<span>
-				<%- date(page.date, "YYYY-MM-DD HH:mm:ss" ) %>
-			</span>
-			<div id="article-categories">
-				<% if (page.categories) { %>
-					<span>Categories：</span>
-					<% for (var j=0; j < page.categories.data.length; j++) { %>
-						<% if (page.categories.data[j] && page.categories.data[j].name) { %>
-							<span>
-								<i class="fa fa-folder" aria-hidden="true">
-									<a href="/<%- page.categories.data[j].path %>">
-										<%- page.categories.data[j].name %>
-									</a>
-								</i>
-								<% if (j < page.categories.data.length - 1) { %>
-									>
-									<% } %>
-							</span>
-							<% } %>
-								<% } %>
-									<% } %>
-
-										<% if (page.tags) { %>
-											<span>Tags：</span>
-											<% for (var j=0; j < page.tags.data.length; j++) { %>
-												<% if (page.tags.data[j] && page.tags.data[j].name) { %>
-													<span>
-														<i class="fa fa-tag" aria-hidden="true">
-															<a href="/<%- page.tags.data[j].path %>">
-																<%- page.tags.data[j].name %>
-															</a>
-														</i>
-													</span>
-													<% } %>
-														<% } %>
-															<% } %>
-			</div>
-
-</div>
-
-<div id="article-content">
-	<%- page.content %>
-</div>
-<% if (theme.valine.enableComment){ %>
-	<div id="vcomments"></div>
+	<span>
+		阅读量:<span
+			id="<%= url_for(page.path) %>"
+			class="leancloud_visitors"
+			data-flag-title="<%- page.title %>"></span>
+	</span>
 	<% } %>
+	<span> <%- config.author %> </span>
+	<span> <%- date(page.date, "YYYY-MM-DD HH:mm:ss" ) %> </span>
+	<div id="article-categories">
+		<% if (page.categories) { %>
+		<span>Categories：</span>
+		<% for (var j=0; j < page.categories.data.length; j++) { %> <% if
+		(page.categories.data[j] && page.categories.data[j].name) { %>
+		<span>
+			<i class="fa fa-folder" aria-hidden="true">
+				<a href="/<%- page.categories.data[j].path %>">
+					<%- page.categories.data[j].name %>
+				</a>
+			</i>
+			<% if (j < page.categories.data.length - 1) { %> > <% } %>
+		</span>
+		<% } %> <% } %> <% } %> <% if (page.tags) { %>
+		<span>Tags：</span>
+		<% for (var j=0; j < page.tags.data.length; j++) { %> <% if
+		(page.tags.data[j] && page.tags.data[j].name) { %>
+		<span>
+			<i class="fa fa-tag" aria-hidden="true">
+				<a href="/<%- page.tags.data[j].path %>">
+					<%- page.tags.data[j].name %>
+				</a>
+			</i>
+		</span>
+		<% } %> <% } %> <% } %>
+	</div>
+</div>
 
-		<script>
+<div id="article-content"><%- page.content %></div>
+
+<!-- giscus -->
+<% if(theme.giscus.enableComment){%>
+<br />
+<div id="comment"></div>
+<% } %>
+
+<!-- valine -->
+<% if (theme.valine.enableComment){ %>
+<div id="vcomments"></div>
+<% } %>
+
+<script>
 	<% if (theme.valine.enableComment) { %>
 				// 评论
 				new Valine({
@@ -107,4 +102,28 @@
 					showTime(Counter);
 				});
 	<% } %>
-		</script>
+</script>
+
+<script>
+	<% if(theme.giscus.enableComment){ %>
+		(function () {
+			var giscus = document.createElement("script");
+			giscus.type = "text/javascript";
+			giscus.async = true;
+			giscus.setAttribute("data-repo", "<%- theme.giscus.repo %>");
+			giscus.setAttribute("data-repo-id", "<%- theme.giscus.repoid %>");
+			giscus.setAttribute("data-category", "General");
+			giscus.setAttribute("data-category-id", "DIC_kwDOFvofFs4CPo1Q");
+			giscus.setAttribute("data-mapping", "pathname");
+			giscus.setAttribute("data-reactions-enabled", "<%- theme.giscus.reactions %>");
+			giscus.setAttribute("data-emit-metadata", "0");
+			giscus.setAttribute("data-input-position", "top");
+			giscus.setAttribute("data-theme", "light");
+			giscus.setAttribute("data-lang", "zh-CN");
+			giscus.setAttribute("data-loading", "lazy");
+			giscus.setAttribute("crossorigin", "anonymous");
+			giscus.src = "https://giscus.app/client.js";
+			document.getElementById("comment").appendChild(giscus);
+		})();
+	<% } %>
+</script>
