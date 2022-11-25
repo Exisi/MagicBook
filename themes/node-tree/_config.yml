@@ -12,9 +12,9 @@ giscus:
     # 评论
     enableComment: true
     # Discussion 项目地址
-    repo: Exisi/MagicBook
+    repo: Exisi/Exisi
     # Discussion 项目
-    repoid: R_kgDOIfu7zg
+    repoid: MDEwOlJlcG9zaXRvcnkzODU0OTA3MTA=
     # 反应
     reactions: 1
 
