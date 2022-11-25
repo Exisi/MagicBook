@@ -33,10 +33,10 @@ siteStartYear: 2022
 #   https://www.google.com/search?q=
 # homeHost：要搜索的站点域名，不配置默认取当前页面的域名
 searchEngine: https://www.google.com/search?q=
-homeHost: wujun234.github.io
+homeHost: m.exi.ink
 
-#tags: true
-#categories: true
+tags: true
+categories: true
 
 # 左侧导航栏，用文件名还是文章名
 sidebar:
