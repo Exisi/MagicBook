@@ -1,29 +1,28 @@
-## Hexo 主题 Tree
+## Hexo 主题 Node-Tree
 
-一个简洁的主题，主要功能是 “树状导航” + “树状目录”，可选配“评论”和“阅读量”功能，支持基于搜索引擎的全站搜索。通过 fancybox 支持图片点击放大。
+Node-Tree 是基于 Tree 修改的目录结构的树状主题，修改和增加了部分功能：
+ 1. 修改为日期进行排序
+ 2. 适配手机端界面
+ 3. 调整了界面样式
+ 3. 侧边栏实现目录即文章，目录文章读取于目录下的同名 Markdown 文件
 
-有问题欢迎及时联系，issues、邮件都行
+主要功能是 “树状导航” + “树状目录”，可选配“评论”和“阅读量”功能，支持基于搜索引擎的全站搜索。通过 fancybox 支持图片点击放大。
 
-Demo：[https://wujun234.github.io/](https://wujun234.github.io/)
-
-![](source/Tree.png)
+Demo：[https://m.exi.ink](https://m.exi.ink)
 
 ## 使用说明
 
 ### 1 下载主题
 
 下载主题到 `hexo` 根目录中 `themes` 目录下
-```
-git clone https://github.com/wujun234/hexo-theme-tree.git  themes/tree
-```
 
 修改 `hexo` 根目录的 `_config.yml`
 ```
-theme: tree
+theme: node-tree
 ```
 ### 2 配置主题
 
-如果要使用 `valine` 的评论及阅读量功能，需要在 `themes/tree` 路径下的 `_config.yml` 文件中，填写自己申请的 `leancloud` 账户下面的 `appID` 和 `appKey`
+如果要使用 `valine` 的评论及阅读量功能，需要在 `themes/note-tree` 路径下的 `_config.yml` 文件中，填写自己申请的 `leancloud` 账户下面的 `appID` 和 `appKey`
 
 ```
 valine:
@@ -52,7 +51,9 @@ hexo new page --path about/index "About"
 参考：https://hexo.io/zh-cn/docs/commands.html#new
 
 ### 5 文章树、目录树
-页面左侧的文章树是根据 source 文件夹里的文章和文件夹生成的
+页面左侧的文章树是根据 source 文件夹里的文章和文件夹生成的，文章默认按照文章的时间进行排序，越早的文章排在最前，统一个目录下的文章取最晚日期排序
+如果需要将目录权重提前，请确保所有日期在相关文章之前
+目录节点的文章默认为同目录下的同名 Markdown 文件
 
 修改主题 `tree` 目录的 `_config.yml`, `sidebar.usePostTitle`可以控制目录树中展示文件名还是文章名
 ```
