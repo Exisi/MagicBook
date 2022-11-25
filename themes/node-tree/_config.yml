@@ -35,7 +35,7 @@ valine:
 busuanzi: true
 
 baiduanalysis:
-  baiduanalysis: true
+  enable: true
   src: https://hm.baidu.com/hm.js?a678db57b009ca2bf262e45529b0d9eb
 
 # 底部版权开始年份

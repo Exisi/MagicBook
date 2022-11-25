@@ -1,5 +1,5 @@
 <script>
-	<% if(theme.baiduanalysis.baiduanalysis) %>
+	<% if (theme.baiduanalysis.enable){ %>
 		var _hmt = _hmt || [];
 		(function () {
 			var hm = document.createElement("script");
@@ -12,7 +12,7 @@
 
 <header id="header">
 	<a id="title" href="<%= url_for() %>" class="log<div class=""></div>
-		<img id="logo" src="favicon.ico" />
+		<img id="logo" src="<%= url_for() %>favicon.ico" />
 		<%- config.title %>
 	</a>
 

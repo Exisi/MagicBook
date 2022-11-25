@@ -6,6 +6,7 @@ Node-Tree 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改�
  3. 调整了界面样式
  3. 侧边栏实现目录即文章，目录文章读取于目录下的同名 Markdown 文件
  4. 添加 giscus 评论功能
+ 5. 为百度分析添加配置
 
 主要功能是 “树状导航” + “树状目录”，可选配“评论”和“阅读量”功能，支持基于搜索引擎的全站搜索。通过 fancybox 支持图片点击放大。
 
@@ -165,4 +166,14 @@ highlight:
 ```
 
 ### 访问管理
-我自己用的是百度统计 https://tongji.baidu.com ，很简单，注册后在 'head' 里加一个 '<script>' 块就行了
+我自己用的是百度统计 https://tongji.baidu.com ，很简单，注册后在`themes/note-tree` 路径下的 `_config.yml` 文件中填写 `url` 既可
+```
+baiduanalysis:
+  src:
+
+```
+不使用则设置为关闭
+```
+baiduanalysis:
+  enable: false
+```
