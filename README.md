@@ -14,4 +14,4 @@
   3. 图片为 base64 进行保存 (虽然这看起来不太明智，不过对于大量的笔记，迁移的效率比较高:))
 
 ### 主题
-- Node-Tree 是基于 Tree 修改的目录结构的树状主题, 如果对主题有兴趣可以前往相关文档进行查看：[Node-Tree文档](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree)
+- [Node-Tree](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree) 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的目录结构的树状主题, 如果对主题有兴趣可以前往相关文档进行查看：[Node-Tree文档](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree)
