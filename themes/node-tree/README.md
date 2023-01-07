@@ -12,6 +12,10 @@ Node-Tree 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改�
 
 Demo：[https://m.exi.ink](https://m.exi.ink)
 
+##### 注
+- 当前存在的问题：
+  `因为在原有主题的基础上增加了目录即文章的功能，不可避免的让文章的索引顺序出现了混乱，因此暂时移除了切换上下页的功能`
+
 ## 使用说明
 
 ### 1 下载主题
