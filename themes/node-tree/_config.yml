@@ -42,8 +42,8 @@ baiduanalysis:
 # Google分析
 googleanalysis:
   enable: ture
-  src: https://www.googletagmanager.com/gtag/js?id=G-M59MXF45E4
-  config: G-M59MXF45E4
+  src: https://www.googletagmanager.com/gtag/js?id=G-9T5T0HZ66R
+  config: G-9T5T0HZ66R
 
 # 底部版权开始年份
 siteStartYear: 2022
