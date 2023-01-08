@@ -1,15 +1,3 @@
-<script>
-	<% if (theme.baiduanalysis.enable){ %>
-		var _hmt = _hmt || [];
-		(function () {
-			var hm = document.createElement("script");
-			hm.src = "<%- theme.baiduanalysis.src %>";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	<% } %>
-</script>
-
 <header id="header">
 	<a id="title" href="<%= url_for() %>" class="log<div class=""></div>
 		<img id="logo" src="<%= url_for() %>favicon.ico" />
