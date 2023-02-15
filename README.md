@@ -4,14 +4,16 @@
   
   ![Hexo](https://img.shields.io/badge/Hexo-0E83CD?style=for-the-badge&logo=hexo&logoColor=white)
   ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+  
+<p>MagicBook 是基于 Hexo 构建的笔记网站，用于存放已归档的笔记
+所有笔记整理均来源于网络的文章博客等，全部为手动更新，不能保证笔记的时效性，仅供查阅。</p>
 </div>
-MagicBook 是基于 Hexo 构建的笔记网站，用于存放已归档的笔记
-所有笔记整理均来源于网络的文章博客等，全部为手动更新，不能保证笔记的时效性，仅供查阅。
+
 
 ### 来源
-为了让我在任何地方都可以查阅，我建立了 MagicBook
+为了随时查阅笔记，我使用 Hexo 构建了 MagicBook，静态托管于 Vercel
 
-  1. 起初受限于 OneNote 笔记的导出问题，最后还是选择了最简单的方法进行
+  1. 起初受限于 OneNote 笔记的导出问题，得益于项目 [ClipboardViewer](https://github.com/walterlv/ClipboardViewer) 对富文本的快速获取，笔记得以 由HTML 代码的方式快速导出
 
   2. 所有笔记来自 OneNote 笔记富文本 转 HTML 格式，笔记的 Markdown 文件仅用于为笔记添加标签。内容主体还是 HTML 格式
 
