@@ -145,7 +145,8 @@ lang=en-US>&nbsp;</p>
   <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>将其设置为</span><span
   style='font-family:"Comic Sans MS"'> true</span><span style='font-family:
   "Microsoft YaHei UI"'>，将会导致本条语句的结果被二级缓存，默认值：对</span><span style='font-family:
-  "Comic Sans MS"'> select </span><span style='font-family:"Microsoft YaHei UI"'>元素为</span></p>
+  "Comic Sans MS"'> select </span><span style='font-family:"Microsoft YaHei UI"'>元素为 <span style='font-family:
+  "Comic Sans MS"'>true</span></p>
   </td>
  </tr>
  <tr>
