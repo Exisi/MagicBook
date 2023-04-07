@@ -43,7 +43,7 @@
 			<%
 				<!-- 递归输出侧边栏目录 tree -->
 				const showTree = (input,root) => {
-					
+
 					<!-- 按照日期排序 -->
 					input.sort(function(a, b){
 						let date ={
@@ -64,7 +64,7 @@
 							<% if(root != node.post.path){ %>
 									<li class="file<%- (is_post() && node.post._id == page._id) ? ' active' : '' %>">
 
-										<a href="<%- url_for(node.post.path) %><%-  %>">
+										<a href="<%- url_for(node.post.path) %><%-  %>" title="<%- node.title %>">
 						<%
 
 							if (theme.sidebar.usePostTitle) { %>
@@ -87,6 +87,9 @@
 									let parent_post = list[list.length-1]
 									let path = node.title+"/"+parent_post
 
+									let page_title = page.path.split("/");
+									let title = page_title[page_title.length-2];
+
 									let children_list = node.children
 									children_list.forEach(child => {
 										if(child.post.path.indexOf(path)>0){
@@ -96,9 +99,9 @@
 									%>
 									<a href="#" class="directory">
 										<i class="fa fa-plus-square-o"></i>
-										<span><a href="<%- "/"+source %><%-  %>">
+										<a class="directory<%- (is_post() && node.title == title) ? ' active' : '' %>" href="<%- "/"+source %><%-  %>" title="<%- node.title %>">
 											<%- node.title %>
-										</a></span>
+										</a>
 									</a>
 									<%- showTree(node.children,source) %>
 								</li>

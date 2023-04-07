@@ -98,9 +98,7 @@ function showArticleIndex() {
 			level = 4 - max_level + 1;
 		}
 		if (level != 0) {
-			$(labelList[i]).before(
-				'<span class="anchor" id="_label' + i + '"></span>'
-			);
+			$(labelList[i]).before('<span class="anchor" id="_label' + i + '"></span>');
 			content +=
 				'<li class="level_' +
 				level +
@@ -165,27 +163,26 @@ function pjaxLoad() {
 			$("#tree .active").removeClass("active");
 			var title = $("#article-title").text().trim();
 			if (title.length) {
-				var searchResult = $("#tree li.file").find(
-					"a:contains('" + title + "')"
-				);
+				var searchResult = $("#tree li.file").find("a[title='" + title + "']");
+
 				if (searchResult.length) {
-					$(".fa-minus-square-o")
-						.removeClass("fa-minus-square-o")
-						.addClass("fa-plus-square-o");
+					$(".fa-minus-square-o").removeClass("fa-minus-square-o").addClass("fa-plus-square-o");
 					$("#tree ul").css("display", "none");
 					if (searchResult.length > 1) {
 						var categorie = $("#article-categories span:last a").html();
 						if (typeof categorie != "undefined") {
 							categorie = categorie.trim();
-							searchResult = $(
-								"#tree li.directory a:contains('" + categorie + "')"
-							)
+							searchResult = $("#tree li.directory a:contains('" + categorie + "')")
 								.siblings()
-								.find("a:contains('" + title + "')");
+								.find("a[title='" + title + "']");
 						}
 					}
 					searchResult[0].parentNode.classList.add("active");
 					showActiveTree($("#tree .active"), true);
+				}
+				if (!searchResult.length) {
+					searchResult = $("#tree li.directory ").find("a[title='" + title + "']");
+					searchResult[0].classList.add("active");
 				}
 				showArticleIndex();
 			}
@@ -209,9 +206,7 @@ function serachTree() {
 
 		// 没值就收起父目录，但是得把 active 的父目录都展开
 		if (inputContent.length === 0) {
-			$(".fa-minus-square-o")
-				.removeClass("fa-minus-square-o")
-				.addClass("fa-plus-square-o");
+			$(".fa-minus-square-o").removeClass("fa-minus-square-o").addClass("fa-plus-square-o");
 			$("#tree ul").css("display", "none");
 			if ($("#tree .active").length) {
 				showActiveTree($("#tree .active"), true);
@@ -221,13 +216,9 @@ function serachTree() {
 		}
 		// 有值就搜索，并且展开父目录
 		else {
-			$(".fa-plus-square-o")
-				.removeClass("fa-plus-square-o")
-				.addClass("fa-minus-square-o");
+			$(".fa-plus-square-o").removeClass("fa-plus-square-o").addClass("fa-minus-square-o");
 			$("#tree ul").css("display", "none");
-			var searchResult = $("#tree li").find(
-				"a:contains('" + inputContent + "')"
-			);
+			var searchResult = $("#tree li").find("a:contains('" + inputContent + "')");
 			if (searchResult.length) {
 				showActiveTree(searchResult.parent(), false);
 			}
@@ -241,10 +232,7 @@ function serachTree() {
 
 			if (inputContent.length === 0) {
 			} else {
-				window.open(
-					searchEngine + inputContent + "%20site:" + homeHost,
-					"_blank"
-				);
+				window.open(searchEngine + inputContent + "%20site:" + homeHost, "_blank");
 			}
 		}
 	});
@@ -260,27 +248,29 @@ function clickTreeDirectory() {
 
 	// 点击目录，就触发折叠动画效果
 	$(document).on("click", "#tree a[class='directory']", function (e) {
-		// 用来清空所有绑定的其他事件
-		e.preventDefault();
-
-		var icon = $(this).children(".fa");
-		var iconIsOpen = icon.hasClass("fa-minus-square-o");
-		var subTree = $(this).siblings("ul");
-
-		icon.removeClass("fa-minus-square-o").removeClass("fa-plus-square-o");
-
-		if (iconIsOpen) {
-			if (typeof subTree != "undefined") {
-				subTree.slideUp({ duration: 100 });
-			}
-			icon.addClass("fa-plus-square-o");
-		} else {
-			if (typeof subTree != "undefined") {
-				subTree.slideDown({ duration: 100 });
-			}
-			icon.addClass("fa-minus-square-o");
-		}
+		showActiveChildren($(this));
 	});
+}
+
+// 展开子节点
+function showActiveChildren(node) {
+	var icon = node.parent().find(".fa").first();
+	var iconIsOpen = icon.hasClass("fa-minus-square-o");
+	var subTree = node.siblings("ul");
+
+	icon.removeClass("fa-minus-square-o").removeClass("fa-plus-square-o");
+
+	if (iconIsOpen) {
+		if (typeof subTree != "undefined") {
+			subTree.slideUp({ duration: 100 });
+		}
+		icon.addClass("fa-plus-square-o");
+	} else {
+		if (typeof subTree != "undefined") {
+			subTree.slideDown({ duration: 100 });
+		}
+		icon.addClass("fa-minus-square-o");
+	}
 }
 
 // 循环递归展开父节点
@@ -304,9 +294,15 @@ function showActiveTree(jqNode, isSiblings) {
 				.addClass("fa-minus-square-o");
 		}
 	}
+
 	jqNode.each(function () {
 		showActiveTree($(this).parent(), isSiblings);
 	});
+
+	if (jqNode.is("a")) {
+		//界面初次加载，展开子节点
+		showActiveChildren(jqNode);
+	}
 }
 
 function scrollOn() {

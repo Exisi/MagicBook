@@ -60,6 +60,12 @@ a {
 #title a {
 	line-height: 20px;
 }
+
+a.active {
+	color: #9cc7b8;
+	border-bottom: 1px solid #9cc7b8;
+}
+
 #menu {
 	position: fixed;
 	padding-right: 20px;
@@ -172,7 +178,8 @@ a {
 	list-style: none;
 	white-space: nowrap;
 }
-#sidebar ul li a {
+
+ul li a {
 	color: #454545;
 	font-size: 14px;
 }
@@ -181,7 +188,7 @@ a {
 	color: rgb(122, 122, 122);
 	border-bottom: 1px solid #ccc;
 }
-#sidebar .active a {
+#sidebar ul li .active a {
 	color: #9cc7b8;
 	border-bottom: 1px solid #9cc7b8;
 }
