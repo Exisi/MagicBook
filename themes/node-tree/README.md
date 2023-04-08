@@ -1,20 +1,21 @@
 ## Hexo 主题 Node-Tree
 
 Node-Tree 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的目录结构的树状主题，修改和增加了部分功能：
- 1. 将原本的Ascii码排序修改为日期进行排序
- 2. 适配手机端界面
- 3. 调整了界面样式
- 3. 侧边栏实现目录即文章，目录文章读取于目录下的同名 Markdown 文件
- 4. 添加 giscus 评论功能
- 5. 添加百度分析和谷歌分析的配置
+
+1.  将原本的 Ascii 码排序修改为日期进行排序
+2.  适配手机端界面
+3.  调整了界面样式
+4.  侧边栏实现目录即文章，目录文章读取于目录下的同名 Markdown 文件
+5.  添加 giscus 评论功能
+6.  添加百度分析和谷歌分析的配置
 
 主要功能是 “树状导航” + “树状目录”，可选配“评论”和“阅读量”功能，支持基于搜索引擎的全站搜索。通过 fancybox 支持图片点击放大。
 
 Demo：[https://m.exi.ink](https://m.exi.ink)
 
 ##### 注
-- 当前存在的问题：
-  `因为在原有主题的基础上增加了目录即文章的功能，不可避免的让文章的索引顺序出现了混乱，因此暂时移除了切换上下页的功能`
+
+请保持每个目录中文章发布时间的正确顺序，否则生成的文章的上下页可能出错
 
 ## 使用说明
 
@@ -23,36 +24,46 @@ Demo：[https://m.exi.ink](https://m.exi.ink)
 下载主题到 `hexo` 根目录中 `themes` 目录下
 
 修改 `hexo` 根目录的 `_config.yml`
+
 ```
 theme: node-tree
 ```
+
 ### 2 配置主题
+
 如果要使用 `giscus` 的评论功能，需要在`themes/note-tree` 路径下的 `_config.yml` 文件中，填写 `giscus` 生成的 `repo`，`repo-id`， `reactions-enabled`
+
 ```
 giscus:
     repo:
     repo-id:
     reactions-enabled:
 ```
+
 如果不使用 `giscus`，则设置
 
 giscus:
-    enableComment: false
+enableComment: false
+
 ```
 
 如果要使用 `valine` 的评论及阅读量功能，需要在 `themes/note-tree` 路径下的 `_config.yml` 文件中，填写自己申请的 `leancloud` 账户下面的 `appID` 和 `appKey`
 
 ```
+
 valine:
-    appID: 
-    appKey: 
+appID:
+appKey:
+
 ```
 
 若不需使用，则设置
 ```
+
 valine:
-    enableComment: false 
-    enableCounter: false
+enableComment: false
+enableCounter: false
+
 ```
 
 ### 3 导航栏和图标
@@ -64,7 +75,9 @@ valine:
 
 执行
 ```
+
 hexo new page --path about/index "About"
+
 ```
 参考：https://hexo.io/zh-cn/docs/commands.html#new
 
@@ -75,10 +88,15 @@ hexo new page --path about/index "About"
 
 修改主题 `tree` 目录的 `_config.yml`, `sidebar.usePostTitle`可以控制目录树中展示文件名还是文章名
 ```
+
 # 左侧导航栏，用文件名还是文章名
+
 sidebar:
-  # usePostTitle 为 ture 用文章名，不填或为 false 用文件名
-  usePostTitle: true
+
+# usePostTitle 为 ture 用文章名，不填或为 false 用文件名
+
+usePostTitle: true
+
 ```
 
 ### 6 全站搜索
@@ -93,20 +111,28 @@ sidebar:
 
 执行
 ```
+
 hexo new page "tags"
+
 ```
 编辑 source/tags/index.md
 ```
+
 ---
+
 title: tags
 date: 2021-02-26 16:36:55
 type: "tags"
 layout: "tags"
+
 ---
+
 ```
 修改主题 `tree` 目录的 `_config.yml`，添加
 ```
+
 tags: true
+
 ```
 
 ### 8 categories 页
@@ -114,21 +140,29 @@ tags: true
 
 执行
 ```
+
 hexo new page "categories"
+
 ```
 编辑 source/tags/index.md
 ```
+
 ---
+
 title: categories
 date: 2021-02-26 16:36:55
 type: "categories"
 layout: "categories"
+
 ---
+
 ```
 修改主题 `tree` 目录的 `_config.yml`，添加
 ```
+
 categories: true
-```
+
+````
 
 ### 9 pjax
 主题默认支持了 pjax 跳转，但是在网速慢的时候，pjax 因为没有页面刷新的交互，可能会让人误以为点击没响应。
@@ -147,20 +181,22 @@ $(document).ready(function () {
   pageScroll();
   wrapImageWithFancyBox();
 });
-```
-
+````
 
 ## 其他
+
 ### 图片
+
 最开始将图片放在 source 中，使用 github 的相对地址，但是本地 md 编辑器不能识别这样的图片，
 
 后续选择了 picgo，用 github 做图床：https://picgo.github.io/PicGo-Doc/
 
-###  推荐插件
+### 推荐插件
 
 推荐安装 [Markdown-it](https://github.com/markdown-it/markdown-it) 插件渲染 `Markdown`
 
 替换之后注意将 \_config.yml 中 hexo 默认的 Markdown 配置改一下
+
 ```
 highlight:
   enable: false
@@ -170,7 +206,9 @@ highlight:
 ```
 
 ### 访问管理
+
 可选百度分析统计 https://tongji.baidu.com ，谷歌分析统计 https://analytics.google.com ，在`themes/note-tree` 路径下的 `_config.yml` 文件中填写相关配置既可
+
 ```
 baiduanalysis:
   src:
@@ -179,7 +217,9 @@ googleanalysis:
   src:
   config:
 ```
+
 不使用则设置为关闭
+
 ```
 baiduanalysis:
   enable: false
