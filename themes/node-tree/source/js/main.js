@@ -161,10 +161,12 @@ function pjaxLoad() {
 			});
 			// 添加 active
 			$("#tree .active").removeClass("active");
-			var title = $("#article-title").text().trim();
+			//根据链接路径匹配标题路径
+			let full_title = decodeURI(window.location.pathname).slice(1, -1).split("/");
+			full_title.splice(0, 3);
+			var title = full_title.join("/");
 			if (title.length) {
 				var searchResult = $("#tree li.file").find("a[title='" + title + "']");
-
 				if (searchResult.length) {
 					$(".fa-minus-square-o").removeClass("fa-minus-square-o").addClass("fa-plus-square-o");
 					$("#tree ul").css("display", "none");

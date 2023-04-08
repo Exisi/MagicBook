@@ -61,10 +61,14 @@
 						<% if(root != node.post.path){ %>
 							<ul>
 						<% } %>
-							<% if(root != node.post.path){ %>
+						<% if(root != node.post.path){
+							let fill_title = node.post.path.slice(0,-1).split('/');
+							fill_title.splice(0,3);
+							let title = fill_title.join("/");
+						%>
 									<li class="file<%- (is_post() && node.post._id == page._id) ? ' active' : '' %>">
 
-										<a href="<%- url_for(node.post.path) %><%-  %>" title="<%- node.title %>">
+										<a href="<%- url_for(node.post.path) %><%-  %>" title="<%- title %>">
 						<%
 
 							if (theme.sidebar.usePostTitle) { %>
@@ -88,18 +92,24 @@
 									let path = node.title+"/"+parent_post
 
 									let page_title = page.path.split("/");
-									let title = page_title[page_title.length-2];
 
-									let children_list = node.children
+									let children_list = node.children;
+									let child_post = null;
 									children_list.forEach(child => {
 										if(child.post.path.indexOf(path)>0){
-											source = child.post.path
+											child_post = child.post;
+											source = child.post.path;
 										}
 									});
+
+									let full_title = child_post.slug;
+									let current_title = page.path.slice(0,-1).split("/");
+									current_title.splice(0,3);
+									let title = current_title.join("/");
 									%>
 									<a href="#" class="directory">
 										<i class="fa fa-plus-square-o"></i>
-										<a class="directory<%- (is_post() && node.title == title) ? ' active' : '' %>" href="<%- "/"+source %><%-  %>" title="<%- node.title %>">
+										<a class="directory<%- (is_post() && full_title == title) ? ' active' : '' %>" href="<%- "/"+source %><%-  %>" title="<%- full_title %>">
 											<%- node.title %>
 										</a>
 									</a>
