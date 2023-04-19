@@ -378,15 +378,7 @@ super.createSqlSource(configuration, script, parameterType);</p>
 12.0pt'>}</p>
 
 <p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
-12.0pt;color:#ED7D31' lang=en-US>&nbsp;</p>
-
-<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
-lang=en-US>&nbsp;</p>
-
-<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
-lang=en-US>&nbsp;</p>
-
-<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+12.0pt'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
