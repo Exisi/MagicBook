@@ -1,17 +1,17 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@Conditional］
+  - ［@Conditional］
 date:
-- 2022-11-28 15:16:54
+  - 2022-11-28 15:16:54
 ---
 
 <ul style="list-style-type:disc">
     <li><span style="font-size:12.0pt"><span
                 style="font-family:&quot;Comic Sans MS&quot;">@Conditional</span></span><span
             style="font-size:12.0pt"><span
-                style="font-family:&quot;Microsoft YaHei UI&quot;">注解是个什么东西呢，它可以根据代码中设置的条件装载不同的</span></span><span
+                style="font-family:&quot;Microsoft YaHei UI&quot;">注解可以根据代码中设置的条件装载不同的</span></span><span
             style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">bean</span></span><span
             style="font-size:12.0pt"><span
                 style="font-family:&quot;Microsoft YaHei UI&quot;">，符合条件则加载该</span></span><span

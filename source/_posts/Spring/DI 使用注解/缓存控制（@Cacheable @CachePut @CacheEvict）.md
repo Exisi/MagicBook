@@ -1,12 +1,12 @@
 ---
 categories:
-- Spring Boot
+  - Spring
 tags:
-- ［@Cacheable］
-- ［@CachePut］
-- ［@CacheEvict］
+  - ［@Cacheable］
+  - ［@CachePut］
+  - ［@CacheEvict］
 date:
-- 2022-11-28 15:53:57
+  - 2022-11-28 08:17:55
 ---
 
 <ul style="list-style-type:disc">
