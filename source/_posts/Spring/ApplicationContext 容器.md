@@ -37,12 +37,110 @@ width=774 height=248></p>
  <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>ApplicationContext</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>继承了多个类，可以使用其所有方法，并实现了以下方法：</span></li>
+</ul>
+
+<div style='direction:ltr'>
+
+<table border=1 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt;margin-left:.3333in' title="" summary="">
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>方法</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>说明</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getId()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>此应用程序上下文的唯一</span><span
+  style='font-family:"Comic Sans MS"'>id</span><span style='font-family:"Microsoft YaHei UI"'>。</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getApplicationName()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>此上下文所属的已部署应用程序的名称。</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getDisplayName()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>此上下文的友好名称。</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getStartupDate()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>首次加载此上下文时的时间戳。</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getParent()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.4784in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'
+  lang=zh-CN>返回父上下文，如果没有父上下文并且这是上下文层次结构的根，则返回 </span><span style='font-family:
+  "Comic Sans MS"' lang=en-US>N</span><span style='font-family:"Comic Sans MS"'
+  lang=zh-CN>ull</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.0333in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>getAutowireCapableBeanFactory()</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:4.4451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>公开此上下文的</span><span
+  style='font-family:"Comic Sans MS"'>AutowireCapableBeanFactory</span><span
+  style='font-family:"Microsoft YaHei UI"'>功能</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>ApplicationContext</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>可以从</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>XML</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>文件、注解或</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>Java</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>代码中加载</span><span
@@ -52,14 +150,14 @@ width=774 height=248></p>
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>。</span></li>
 </ul>
 
-<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
-font-size:13.5pt;color:#333333'>&nbsp;</p>
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+13.5pt;color:#333333'>&nbsp;</p>
 
-<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
-font-size:13.5pt;color:#333333'>&nbsp;</p>
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+13.5pt;color:#333333'>&nbsp;</p>
 
-<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
-font-size:13.5pt;color:#333333'>&nbsp;</p>
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+13.5pt;color:#333333'>&nbsp;</p>
 
 <p style='font-family:"Microsoft YaHei UI";font-size:13.5pt;
 color:#333333'><span style='font-weight:bold'>创建容器</span></p>
@@ -88,7 +186,7 @@ color:#333333'><span style='font-weight:bold'>创建容器</span></p>
  </ul>
 </ul>
 
-<p style='margin-left:1.125in;font-size:12.0pt;color:#333333'><span
+<p style='margin-left:1.125in;font-size:12.0pt'><span
 style='font-family:"Microsoft YaHei UI"'>从类加载路径下搜索配置文件，并根据配置文件来创建</span><span
 style='font-family:"Comic Sans MS"'>Spring</span><span style='font-family:"Microsoft YaHei UI"'>容器。</span></p>
 
@@ -101,11 +199,12 @@ font-size:12.0pt;color:#333333'>&nbsp;</p>
      style='font-family:"Comic Sans MS";font-size:12.0pt'>FileSystemXmlApplicationContext</span></li>
 </ul>
 
-<p style='margin-left:1.125in;font-size:12.0pt;color:#333333'><span
+<p style='margin-left:1.125in;font-size:12.0pt'><span
 style='font-family:"Microsoft YaHei UI"'>从文件系统的相对路径或绝对路径下去搜索配置文件，并根据配置文件来创建</span><span
-style='font-family:"Comic Sans MS"'>Spring</span><span style='font-family:"Microsoft YaHei UI"'>容器。</span></p>
+style='font-family:"Comic Sans MS"'>Spring</span><span style='font-family:"Microsoft YaHei UI"'>容器</span><span
+style='font-family:"Microsoft YaHei UI";color:#333333'>。</span></p>
 
-<p style='margin-left:1.125in;font-family:"Microsoft YaHei UI";
+<p style='margin-left:1.125in;font-family:"Comic Sans MS";
 font-size:12.0pt;color:#333333'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
@@ -123,8 +222,8 @@ font-size:12.0pt;color:#333333'>&nbsp;</p>
      font-size:12.0pt' lang=zh-CN>中</span></li>
 </ul>
 
-<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
-font-size:12.0pt;color:#333333'>&nbsp;</p>
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:#333333'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
@@ -237,24 +336,24 @@ style='font-family:"Microsoft YaHei UI"' lang=zh-CN>的属性和方法</span></p
  1pt;margin-left:.7083in' title="" summary="">
  <tr>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:black;vertical-align:top;width:2.1701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:black;vertical-align:top;width:2.1548in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
   color:white'><span style='font-weight:bold'>方法</span></p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:black;vertical-align:top;width:3.4506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:black;vertical-align:top;width:3.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
   color:white'><span style='font-weight:bold'>描述</span></p>
   </td>
  </tr>
  <tr>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:2.1701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:2.1548in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Comic Sans MS";font-size:11.5pt'
   lang=en-US>getBean(&quot;id&quot;)</p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:3.4506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:3.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'
   lang=zh-CN>根据</span><span style='font-family:"Comic Sans MS"' lang=en-US>id</span><span
   style='font-family:"Microsoft YaHei UI"' lang=zh-CN>获取对象</span></p>
@@ -262,23 +361,23 @@ style='font-family:"Microsoft YaHei UI"' lang=zh-CN>的属性和方法</span></p
  </tr>
  <tr>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:2.1701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:#E7E6E6;vertical-align:top;width:2.1548in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Comic Sans MS";font-size:11.5pt'
   lang=en-US>getBean(java.class)</p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:3.4506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:#E7E6E6;vertical-align:top;width:3.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>根据类名获取对象</p>
   </td>
  </tr>
  <tr>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:2.1701in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:2.1548in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Comic Sans MS";font-size:11.5pt'
   lang=en-US>getBeanDefinitionCount()</p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:3.4506in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:3.4347in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'
   lang=zh-CN>获取容器中的对象的数量，返回</span><span style='font-family:"Comic Sans MS"'
   lang=en-US>int</span><span style='font-family:"Microsoft YaHei UI"'
@@ -287,12 +386,12 @@ style='font-family:"Microsoft YaHei UI"' lang=zh-CN>的属性和方法</span></p
  </tr>
  <tr>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:2.1895in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:#E7E6E6;vertical-align:top;width:2.1743in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Comic Sans MS";font-size:11.5pt'
   lang=en-US>getBeanDefinitionNames()</p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:3.5006in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:#E7E6E6;vertical-align:top;width:3.4847in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>获取容器中的所有的对象名称，返回字符串数组</p>
   </td>
  </tr>
