@@ -141,34 +141,33 @@ font-size:12.0pt;color:#BFBFBF'>&nbsp;</p>
 <p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
 11.5pt;color:#BFBFBF'>}</p>
 
-<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
-11.5pt'>&nbsp;</p>
+<p style='margin-left:.375in;margin-top:0pt;margin-bottom:12pt;font-family:
+"Comic Sans MS";font-size:12.0pt;color:#ED7D31' lang=en-US>&nbsp;</p>
 
-<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
-11.5pt'><span lang=zh-CN>public class </span><span lang=en-US>UserController</span><span
-lang=zh-CN> {</span></p>
+<p style='margin-left:.375in;margin-top:0pt;margin-bottom:12pt;font-family:
+"Comic Sans MS";font-size:12.0pt;color:#FFC000' lang=en-US>@Controller</p>
 
-<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
-font-size:12.0pt'>&nbsp;</p>
-
-<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
-11.5pt'>...</p>
+<p style='margin-left:.375in;margin-top:0pt;margin-bottom:12pt;font-family:
+"Comic Sans MS";font-size:12.0pt' lang=en-US>Public class MainController(){</p>
 
 <p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
-11.5pt'>public void getUser(<span style='color:#FFC000'>@Validated</span> User
-user) {</p>
-
-<p style='margin-left:1.125in;font-family:"Comic Sans MS";
-font-size:11.5pt'>...</p>
+12.0pt'><span style='color:#FFC000'>@PostMapping</span>(<span style='color:
+#B43512'>&quot;/editUser&quot;</span>)</p>
 
 <p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
-11.5pt'>}</p>
+12.0pt'><span lang=zh-CN>public ResultVo editUser(</span><span
+style='color:#FFC000' lang=zh-CN>@RequestBody @Validated</span><span
+lang=zh-CN> User </span><span lang=en-US>user</span><span lang=zh-CN>){</span></p>
+
+<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
+12.0pt'><span style='mso-spacerun:yes'>    </span>return
+ResultVoUtil.success(form);</p>
+
+<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
+12.0pt'>}</p>
 
 <p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
-11.5pt'>}</p>
-
-<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
-11.5pt'>&nbsp;</p>
+12.0pt' lang=en-US>}</p>
 
 <p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'><span
 style='font-weight:bold'>注</span></p>
@@ -199,6 +198,3 @@ style='font-family:"Comic Sans MS"'>&gt; </span></cite></p>
 </div>
 
 </div>
-
-<!--EndFragment-->
-</body>
