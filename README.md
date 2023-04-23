@@ -24,9 +24,6 @@
 - [HTML](https://m.exi.ink/2022/10/20/HTML/HTML/)
 - [MyBatis](https://m.exi.ink/2022/11/27/MyBatis/MyBatis/)
 - [Spring](https://m.exi.ink/2022/11/28/Spring/Spring/)
-- [Spring Web](https://m.exi.ink/2022/11/28/Spring%20Web/Spring%20Web/)
-- [Spring Web MVC](https://m.exi.ink/2022/11/28/Spring%20Web%20MVC/Spring%20Web%20MVC/)
-- [SSM 框架整合](https://m.exi.ink/2022/11/28/SSM%20%E6%A1%86%E6%9E%B6%E6%95%B4%E5%90%88/SSM%20%E6%A1%86%E6%9E%B6%E6%95%B4%E5%90%88/)
 - [Spring Boot](https://m.exi.ink/2022/11/28/Spring%20Boot/Spring%20Boot/)
 
 ### 主题
