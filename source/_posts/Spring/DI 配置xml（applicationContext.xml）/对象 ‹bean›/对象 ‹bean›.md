@@ -2,7 +2,7 @@
 categories:
   - Spring
 tags:
-  - ‹beans›
+  - ‹bean›
 date:
   - 2022-11-28 7:39:45
 ---
@@ -19,18 +19,48 @@ date:
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
  <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>bean</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>就是</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>java</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>对象，</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'> spring</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器管理的</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>java</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>对象，叫做</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>bean</span></li>
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>Spring IoC </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器管理一个或多个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。在容器本身内，这些</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>定义表示为</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> BeanDefinition </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>对象</span></li>
 </ul>
 
 <p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>在</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN> Spring </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>中，构成应用程序主干并由</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN> Spring
+     IoC </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>容器管理的对象称为</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> bean</span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt' lang=zh-CN>。</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> Bean </span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt' lang=zh-CN>是由</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> Spring IoC </span><span style='font-family:
+     "Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>容器实例化，组装和以其他方式管理的对象。</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>Bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>及其之间的依赖关系反映在容器使用的配置元数据（</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>xml</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>配置）中。</span></li>
+</ul>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>&lt;bean&gt;
+     </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>包含了以下参数：</span></li>
+</ul>
 
 <div style='direction:ltr'>
 
@@ -129,7 +159,7 @@ date:
   <div style='direction:ltr'>
   <table border=1 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
    border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
-   1pt;' title="" summary="">
+   1pt' title="" summary="">
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:black;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
@@ -331,58 +361,138 @@ date:
   <p style='font-family:"Comic Sans MS";font-size:11.5pt'>scope</p>
   </td>
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:6.9756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  background-color:#E7E6E6;vertical-align:top;width:7.1076in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-size:11.5pt'><span style='font-family:"Comic Sans MS"'>bean</span><span
-  style='font-family:"Microsoft YaHei UI"'>的作用范围，它包括</span></p>
-  </td>
- </tr>
- <tr>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>singleton</p>
-  </td>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:6.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>单例，指定该</span><span
-  style='font-family:"Comic Sans MS"'>bean</span><span style='font-family:"Microsoft YaHei UI"'>在</span><span
-  style='font-family:"Comic Sans MS"'>spring</span><span style='font-family:
-  "Microsoft YaHei UI"'>容器中只有一个对象，所有通过</span><span style='font-family:"Comic Sans MS"'>getBean</span><span
-  style='font-family:"Microsoft YaHei UI"'>获得的对象都是同一个对象。</span></p>
-  </td>
- </tr>
- <tr>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>prototype</p>
-  </td>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:6.9756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>只要重新获取该</span><span
-  style='font-family:"Comic Sans MS"'>bean</span><span style='font-family:"Microsoft YaHei UI"'>，都将返回一个不同的对象。</span></p>
-  </td>
- </tr>
- <tr>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>request</p>
-  </td>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:6.9756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>在一次</span><span
-  style='font-family:"Comic Sans MS"'>http</span><span style='font-family:"Microsoft YaHei UI"'>请求中对应一个</span><span
-  style='font-family:"Comic Sans MS"'>bean</span><span style='font-family:"Microsoft YaHei UI"'>，类似于</span><span
-  style='font-family:"Comic Sans MS"'>servlet</span></p>
-  </td>
- </tr>
- <tr>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>session</p>
-  </td>
-  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  background-color:#E7E6E6;vertical-align:top;width:6.9756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>在一次会话中对应一个</span><span
-  style='font-family:"Comic Sans MS"'>bean</span><span style='font-family:"Microsoft YaHei UI"'>。</span></p>
+  style='font-family:"Microsoft YaHei UI"'>的作用范围</span></p>
+  <div style='direction:ltr'>
+  <table border=1 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
+   border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+   1pt' title="" summary="">
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:black;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Microsoft YaHei UI";font-size:10.5pt;
+    color:white'><span style='font-weight:bold'>作用域</span></p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:black;vertical-align:top;width:5.859in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Microsoft YaHei UI";font-size:10.5pt;
+    color:white'><span style='font-weight:bold'>描述</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>singleton</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:5.859in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>默认作用域。该作用域下的</span><span
+    style='font-family:"Comic Sans MS"'> Bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>在</span><span style='font-family:"Comic Sans MS"'>
+    IoC </span><span style='font-family:"Microsoft YaHei UI"'>容器中只会存在一个共享的</span><span
+    style='font-family:"Comic Sans MS"'> bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>实例，并且所有对</span><span style='font-family:"Comic Sans MS"'>
+    bean </span><span style='font-family:"Microsoft YaHei UI"'>的请求，只要</span><span
+    style='font-family:"Comic Sans MS"'> id </span><span style='font-family:
+    "Microsoft YaHei UI"'>与该</span><span style='font-family:"Comic Sans MS"'>
+    bean </span><span style='font-family:"Microsoft YaHei UI"'>定义相匹配，则只会返回</span><span
+    style='font-family:"Comic Sans MS"'> bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>的同一实例。</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>prototype</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:5.859in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>每次对该作用域下的</span><span
+    style='font-family:"Comic Sans MS"'> Bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>的请求都会创建新的实例，并返回</span><span style='font-family:"Comic Sans MS"'>
+    bean </span><span style='font-family:"Microsoft YaHei UI"'>的不同实例。</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>request</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:5.8652in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>对于每次</span><span
+    style='font-family:"Comic Sans MS"'>HTTP</span><span style='font-family:
+    "Microsoft YaHei UI"'>请求，使用</span><span style='font-family:"Comic Sans MS"'>request</span><span
+    style='font-family:"Microsoft YaHei UI"'>定义的</span><span style='font-family:
+    "Comic Sans MS"'>Bean</span><span style='font-family:"Microsoft YaHei UI"'>都将产生一个新实例，即每次</span><span
+    style='font-family:"Comic Sans MS"'>HTTP</span><span style='font-family:
+    "Microsoft YaHei UI"'>请求将会产生不同的</span><span style='font-family:"Comic Sans MS"'>Bean</span><span
+    style='font-family:"Microsoft YaHei UI"'>实例。</span></p>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>该作用域仅适用于</span><span
+    style='font-family:"Comic Sans MS"'>WebApplicationContext</span><span
+    style='font-family:"Microsoft YaHei UI"'>环境</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>session</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:5.9284in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>在一次</span><span
+    style='font-family:"Comic Sans MS"'> Http Session </span><span
+    style='font-family:"Microsoft YaHei UI"'>中，容器会返回该</span><span
+    style='font-family:"Comic Sans MS"'> Bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>的同一实例。而对不同的</span><span style='font-family:"Comic Sans MS"'>
+    Session </span><span style='font-family:"Microsoft YaHei UI"'>请求则会创建新的实例，该</span><span
+    style='font-family:"Comic Sans MS"'> bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>实例仅在当前</span><span style='font-family:"Comic Sans MS"'>
+    Session </span><span style='font-family:"Microsoft YaHei UI"'>内有效。同</span><span
+    style='font-family:"Comic Sans MS"'> Http </span><span style='font-family:
+    "Microsoft YaHei UI"'>请求相同，每一次</span><span style='font-family:"Comic Sans MS"'>
+    session </span><span style='font-family:"Microsoft YaHei UI"'>请求创建新的实例，而不同的实例之间不共享属性，且实例仅在自己的</span><span
+    style='font-family:"Comic Sans MS"'> session </span><span style='font-family:
+    "Microsoft YaHei UI"'>请求内有效，请求结束，则实例将被销毁。</span></p>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>该作用域仅适用于</span><span
+    style='font-family:"Comic Sans MS"'>WebApplicationContext</span><span
+    style='font-family:"Microsoft YaHei UI"'>环境</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>application</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:white;vertical-align:top;width:5.859in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>在一个</span><span
+    style='font-family:"Comic Sans MS"'> Http Servlet Context </span><span
+    style='font-family:"Microsoft YaHei UI"'>中，定义一个</span><span
+    style='font-family:"Comic Sans MS"'> Bean </span><span style='font-family:
+    "Microsoft YaHei UI"'>实例。</span></p>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>该作用域仅适用于</span><span
+    style='font-family:"Comic Sans MS"'>WebApplicationContext</span><span
+    style='font-family:"Microsoft YaHei UI"'>环境</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:1.0659in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>websocket</p>
+    </td>
+    <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    background-color:#E7E6E6;vertical-align:top;width:5.859in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>在一个</span><span
+    style='font-family:"Comic Sans MS"'>HTTP WebSocket</span><span
+    style='font-family:"Microsoft YaHei UI"'>的生命周期中，定义一个</span><span
+    style='font-family:"Comic Sans MS"'>Bean</span><span style='font-family:
+    "Microsoft YaHei UI"'>实例</span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
   </td>
  </tr>
 </table>
@@ -405,7 +515,7 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
  0pt;margin-left:.7083in' title="" summary="">
  <tr>
   <td style='border-width:0pt;background-color:white;vertical-align:top;
-  width:6.0458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  width:7.3618in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Comic Sans MS";color:blue'>&lt;?xml</span><span
   style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
@@ -442,18 +552,23 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt'>&nbsp;</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>&lt;bean</span><span
-  style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>id</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Comic Sans MS";color:maroon'>&quot;userService&quot;</span><span
-  style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>class</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Comic Sans MS";color:maroon'>&quot;com.exi.service.impl.UserServiceImpl&quot;</span><span
-  style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>/&gt;</span></p>
+  style='font-family:"Microsoft YaHei UI";color:black' lang=zh-CN>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>&lt;bean</span><span
+  style='font-family:"Microsoft YaHei UI";color:blue' lang=zh-CN>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>id</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>=</span><span
+  style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;userService&quot;</span><span
+  style='font-family:"Microsoft YaHei UI";color:blue' lang=zh-CN>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>class</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>=</span><span
+  style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;com.exi.service.impl.UserServiceImpl&quot;</span><span
+  style='font-family:"Comic Sans MS";color:maroon' lang=en-US> </span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>s</span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=en-US>cope</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>=</span><span
+  style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;singleton&quot;</span><span
+  style='font-family:"Microsoft YaHei UI";color:blue' lang=zh-CN>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>/&gt;</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt'>&nbsp;</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
@@ -679,6 +794,23 @@ style='font-weight:bold'>注</span></p>
 </ul>
 
 <p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>在运行时</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> (</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>与对工厂的实时访问同时</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>) </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>对新</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的注册不被正式支持，因为可能导致并发访问异常，</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器中的状态不一致或都出现问题。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
 
 <p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
 lang=en-US>&nbsp;</p>

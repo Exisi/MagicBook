@@ -35,9 +35,17 @@ date:
  <li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#24292E'><span
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:black'>依赖注入（</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt;color:black'>DI</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:black'>）是一个对象定义其依赖关系的过程。对象仅通过构造函数参数、工厂方法的参数或在对象实例被构造或从工厂方法返回后设置的属性来定义与一起工作的其他对象的依赖关系。然后容器在创建</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:black'>）是一个对象定义其依赖关系的过程。对象仅通过构造函数参数、工厂方法的参数或在对象实例被构造或从工厂方法返回后设置的属性来定义与一起工作的其他对象的依赖关系。从工厂方法返回。然后容器在创建</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt;color:black'> bean </span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:black'>时注入这些依赖项。</span></li>
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:black'>时注入这些依赖项。</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:#24292E'>从根本上讲，此过程是通过使用类的直接构造或服务定位器模式来自己控制其依赖关系的实例化或位置的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt;color:#24292E'> Bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:#24292E'>本身的逆过程</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt;color:#24292E'> (</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt;color:#24292E'>因此称为</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt;color:#24292E'>
+     Control Inversion)</span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt;color:#24292E'>。</span></li>
 </ul>
 
 <p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
