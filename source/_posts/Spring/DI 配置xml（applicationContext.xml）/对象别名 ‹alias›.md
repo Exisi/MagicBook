@@ -89,61 +89,15 @@ date:
 <p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
 color:#70AD47'><span style='font-weight:bold'>示例</span></p>
 
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Comic Sans MS";color:blue'>&lt;?xml</span><span
-style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
-style='font-family:"Comic Sans MS";color:blue'>version</span><span
-style='font-family:"Comic Sans MS";color:black'>=</span><span style='font-family:
-"Comic Sans MS";color:maroon'>&quot;1.0&quot;</span><span style='font-family:
-"Microsoft YaHei UI";color:blue'>&nbsp;</span><span style='font-family:"Comic Sans MS";
-color:blue'>encoding</span><span style='font-family:"Comic Sans MS";color:black'>=</span><span
-style='font-family:"Comic Sans MS";color:maroon'>&quot;UTF-8&quot;</span><span
-style='font-family:"Comic Sans MS";color:blue'>?&gt;</span></p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Comic Sans MS";color:blue'>&lt;beans</span><span
-style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;</span><span
-style='font-family:"Comic Sans MS";color:blue'>xmlns</span><span
-style='font-family:"Comic Sans MS";color:black'>=</span><span style='font-family:
-"Comic Sans MS";color:maroon'>&quot;http://www.springframework.org/schema/beans&quot;</span></p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-family:"Comic Sans MS";color:blue'>xmlns:xsi</span><span
-style='font-family:"Comic Sans MS";color:black'>=</span><span style='font-family:
-"Comic Sans MS";color:maroon'>&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-family:"Comic Sans MS";color:blue'>xsi:schemaLocation</span><span
-style='font-family:"Comic Sans MS";color:black'>=</span><span style='font-family:
-"Comic Sans MS";color:maroon'>&quot;http://www.springframework.org/schema/beans</span></p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Microsoft YaHei UI";color:blue'>&nbsp;&nbsp;&nbsp;&nbsp;</span><a
-href="http://www.springframework.org/schema/beans/spring-beans.xsd"><span
-style='font-family:"Comic Sans MS";color:blue'>http://www.springframework.org/schema/beans/spring-beans.xsd</span></a><span
-style='font-family:"Comic Sans MS";color:maroon'>&quot;&gt;</span></p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-font-size:12.0pt;color:blue'>&nbsp;</p>
-
-<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
 12.0pt'><span style='color:blue'>&lt;bean id=</span><span style='color:#B43512'>&quot;userService&quot;</span><span
 style='color:blue'> class=</span><span style='color:#B43512'>&quot;com.example.UserService&quot;</span><span
 style='color:blue'>/&gt;</span></p>
 
-<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
 12.0pt'><span style='color:blue'>&lt;alias name=</span><span style='color:#B43512'>&quot;userService</span><span
 style='color:blue'>&quot; alias=</span><span style='color:#B43512'>&quot;userServiceImpl&quot;</span><span
 style='color:blue'>/&gt;</span></p>
-
-<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
-12.0pt;color:blue'>&nbsp;</p>
-
-<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-style='font-family:"Comic Sans MS";color:blue'>&lt;/beans&gt;</span></p>
 
 <p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'><span
 style='font-weight:bold'>注</span></p>
