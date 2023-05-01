@@ -59,6 +59,105 @@ date:
  <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>&lt;bean&gt;
      </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>标签包含了以下子标签：</span></li>
+</ul>
+
+<div style='direction:ltr'>
+
+<table border=1 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt;margin-left:.3333in' title="" summary="">
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>子标签</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>描述</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'><span
+  lang=en-US>&lt;</span><span lang=zh-CN>property</span><span lang=en-US>&gt;</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'
+  lang=zh-CN>成员变量，通过对象的</span><span style='font-family:"Comic Sans MS"'
+  lang=en-US> set </span><span style='font-family:"Microsoft YaHei UI"'
+  lang=zh-CN>方法，注入参数</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'><span
+  lang=en-US>&lt;</span><span lang=zh-CN>constructor-arg</span><span
+  lang=en-US>&gt;</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>构造注入，通过对象的构造函数，注入参数</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'><span
+  lang=en-US>&lt;</span><span lang=zh-CN>lookup-method</span><span lang=en-US>&gt;</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>方法注入，注入方法执行后返回的结果</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>&lt;replaced-method&gt;</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>方法替换，对原对象的方法进行替换，并返回替换后方法的结果</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>&lt;qualifier&gt;</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>装配限定，限定要装配到的类</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:1.6388in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>&lt;meta/&gt;</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.4027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>附加信息</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>&lt;bean&gt;
+     </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
      lang=zh-CN>包含了以下参数：</span></li>
 </ul>
 
@@ -102,8 +201,8 @@ date:
   <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
   background-color:#E7E6E6;vertical-align:top;width:6.9756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>类的全限定名（包名</span><span
-  style='font-family:"Comic Sans MS"'>+</span><span style='font-family:"Microsoft YaHei UI"'>类名），用</span><span
-  style='font-family:"Comic Sans MS"'>“.”</span><span style='font-family:"Microsoft YaHei UI"'>号连接；</span></p>
+  style='font-family:"Comic Sans MS"'>+</span><span style='font-family:"Microsoft YaHei UI"'>类名），用“</span><span
+  style='font-family:"Comic Sans MS"'>.</span><span style='font-family:"Microsoft YaHei UI"'>”号连接；</span></p>
   </td>
  </tr>
  <tr>
@@ -163,23 +262,23 @@ date:
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:black;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+    <p style='font-family:"Microsoft YaHei UI";font-size:10.5pt;
     color:white'><span style='font-weight:bold'>属性值</span></p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:black;vertical-align:top;width:4.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+    <p style='font-family:"Microsoft YaHei UI";font-size:10.5pt;
     color:white'><span style='font-weight:bold'>描述</span></p>
     </td>
    </tr>
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:white;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Comic Sans MS";font-size:11.5pt'>default</p>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>default</p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:white;vertical-align:top;width:4.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>默认，采用父级标签</span><span
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>默认，采用父级标签</span><span
     style='font-family:"Comic Sans MS"'>beans</span><span style='font-family:
     "Microsoft YaHei UI"'>中的</span><span style='font-family:"Comic Sans MS"'>default-autowire</span><span
     style='font-family:"Microsoft YaHei UI"'>属性</span></p>
@@ -188,11 +287,11 @@ date:
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:#E7E6E6;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Comic Sans MS";font-size:11.5pt'>byName</p>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>byName</p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-    background-color:#E7E6E6;vertical-align:top;width:5.0666in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>通过属性名称来自动装配，即</span><span
+    background-color:#E7E6E6;vertical-align:top;width:4.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>通过属性名称来自动装配，即</span><span
     style='font-family:"Comic Sans MS"'>A</span><span style='font-family:"Microsoft YaHei UI"'>类中的</span><span
     style='font-family:"Comic Sans MS"'>B</span><span style='font-family:"Microsoft YaHei UI"'>对象名称为</span><span
     style='font-family:"Comic Sans MS"'>name</span><span style='font-family:
@@ -207,11 +306,11 @@ date:
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:white;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Comic Sans MS";font-size:11.5pt'>byType</p>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>byType</p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-    background-color:white;vertical-align:top;width:5.0291in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>根据属性类型来找到和配置文件中配置的</span><span
+    background-color:white;vertical-align:top;width:5.0437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>根据属性类型来找到和配置文件中配置的</span><span
     style='font-family:"Comic Sans MS"'>class</span><span style='font-family:
     "Microsoft YaHei UI"'>类型一致的</span><span style='font-family:"Comic Sans MS"'>bean</span><span
     style='font-family:"Microsoft YaHei UI"'>来自动装配，如果找到多个类型一致的</span><span
@@ -222,27 +321,28 @@ date:
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:#E7E6E6;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Comic Sans MS";font-size:11.5pt'>no</p>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>no</p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:#E7E6E6;vertical-align:top;width:4.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>不执行自动装配操作，只能用</span><span
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>不执行自动装配操作，只能用</span><span
     style='font-family:"Comic Sans MS"'>&lt;ref</span><span style='font-family:
     "Microsoft YaHei UI"'>标签进行装配；</span></p>
+    <p style='font-family:"Microsoft YaHei UI";font-size:10.5pt'>对于大型部署，建议不要更改默认设置，因为明确指定协作者可以提供更好的控制和清晰度。在某种程度上，它记录了系统的结构。</p>
     </td>
    </tr>
    <tr>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
     background-color:white;vertical-align:top;width:1.1687in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-family:"Comic Sans MS";font-size:11.5pt'>constructor</p>
+    <p style='font-family:"Comic Sans MS";font-size:10.5pt'>constructor</p>
     </td>
     <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
-    background-color:white;vertical-align:top;width:4.9979in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-    <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>根据构造器中参数类型来自动装配，如果找到多个类型一致的</span><span
-    style='font-family:"Comic Sans MS"'>bean</span><span style='font-family:
-    "Microsoft YaHei UI"'>，则抛异常，如果一个都没有找到，则不执行装配操作，但是抛出异常（这是和</span><span
-    style='font-family:"Comic Sans MS"'>byType</span><span style='font-family:
-    "Microsoft YaHei UI"'>不一样的地方）。</span></p>
+    background-color:white;vertical-align:top;width:5.0666in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style='font-size:10.5pt'><span style='font-family:"Microsoft YaHei UI"'>类似于</span><span
+    style='font-family:"Comic Sans MS"'> byType</span><span style='font-family:
+    "Microsoft YaHei UI"'>，但适用于构造函数参数。如果容器中不存在构造函数参数类型的一个</span><span
+    style='font-family:"Comic Sans MS"'> bean</span><span style='font-family:
+    "Microsoft YaHei UI"'>，则将引发致命错误。</span></p>
     </td>
    </tr>
   </table>
@@ -809,16 +909,375 @@ style='font-weight:bold'>注</span></p>
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器中的状态不一致或都出现问题。</span></li>
 </ul>
 
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#666600'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#666600'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#666600'>&nbsp;</p>
+
+<p style='font-size:13.5pt'><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"'>依赖优先加载（</span><span style='font-weight:bold;
+font-family:"Comic Sans MS"'>depends-on</span><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"'>）</span></p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>depends-on </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性可以在初始化使用此元素的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>之前显式强制初始化一个或多个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。如果要表示对多个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的依赖性，请提供一个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>名称列表作为</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> depends-on </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性的值</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> (</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>逗号，空格和分号是有效的分隔符</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>)</span></li>
+</ul>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
+color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'>&lt;bean id=</span><span
+style='color:#C00000'>&quot;beanOne&quot;</span><span style='color:blue'>
+class=</span><span style='color:#C00000'>&quot;ExampleBean&quot;</span><span
+style='color:blue'> depends-on=</span><span style='color:#C00000'>&quot;manager&quot;</span><span
+style='color:blue'>/&gt;</span></p>
+
 <p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
-12.0pt'>&nbsp;</p>
+12.0pt;color:#70AD47'>&nbsp;</p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue' lang=zh-CN>&lt;bean id=</span><span
+style='color:#C00000' lang=zh-CN>&quot;bean</span><span style='color:#C00000'
+lang=en-US>Two</span><span style='color:#C00000' lang=zh-CN>&quot;</span><span
+style='color:blue' lang=zh-CN> class=</span><span style='color:#C00000'
+lang=zh-CN>&quot;ExampleBean&quot;</span><span style='color:blue' lang=zh-CN>
+depends-on=</span><span style='color:#C00000' lang=zh-CN>&quot;manager</span><span
+style='color:blue' lang=zh-CN>,</span><span style='color:#C00000' lang=zh-CN>accountDao&quot;</span><span
+style='color:blue' lang=zh-CN>&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'><span style='mso-spacerun:yes'>   
+</span>&lt;property name=</span><span style='color:#C00000'>&quot;manager&quot;</span><span
+style='color:blue'> ref=</span><span style='color:#C00000'>&quot;manager&quot;</span><span
+style='color:blue'> /&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt;color:blue'>&lt;/bean&gt;</p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt;color:blue'>&nbsp;</p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'>&lt;bean id=</span><span
+style='color:#C00000'>&quot;manager&quot;</span><span style='color:blue'>
+class=</span><span style='color:#C00000'>&quot;ManagerBean&quot;</span><span
+style='color:blue'> /&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue' lang=zh-CN>&lt;bean id=</span><span
+style='color:#C00000' lang=zh-CN>&quot;accountDao&quot;</span><span
+style='color:blue' lang=zh-CN> class=</span><span style='color:#C00000'
+lang=zh-CN>&quot;</span><span style='color:#C00000' lang=en-US>com.example</span><span
+style='color:#C00000' lang=zh-CN>.jdbc.JdbcAccountDao&quot;</span><span
+style='color:blue' lang=zh-CN> /&gt;</span></p>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'><span
+style='font-weight:bold'>注</span></p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>depends-on </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性既可以指定初始化时间依赖性，也可以仅在</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> singleton bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的情况下指定相应的销毁时间依赖性。与给定</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>定义</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> depends-on </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>关系的从属</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>首先被销毁，然后再销毁给定</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>本身。因此，</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>depends-on </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>也可以控制关闭</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Sequences</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。</span></li>
+</ul>
 
 <p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
 lang=en-US>&nbsp;</p>
 
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
+lang=en-US>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
+lang=en-US>&nbsp;</p>
+
+<p style='font-size:13.5pt'><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"' lang=zh-CN>懒初始化</span><span style='font-weight:
+bold;font-family:"Comic Sans MS"' lang=en-US> </span><span style='font-weight:
+bold;font-family:"Comic Sans MS"' lang=zh-CN>bean</span><span style='font-weight:
+bold;font-family:"Microsoft YaHei UI"' lang=zh-CN>（</span><span
+style='font-weight:bold;font-family:"Comic Sans MS"' lang=zh-CN>lazy-init</span><span
+style='font-weight:bold;font-family:"Microsoft YaHei UI"' lang=zh-CN>）</span></p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>默认情况下，作为初始化过程的一部分，</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>ApplicationContext </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>实现会急于创建和配置所有</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> singleton bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。通常，这种预初始化是可取的，因为与数小时甚至数天后相比，会立即发现配置或周围环境中的错误。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>如果不希望使用此行为，则可以通过将</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>定义标记为延迟初始化来防止单例</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的预实例化。延迟初始化的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>告诉</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> IoC </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器在首次请求时而不是在启动时创建一个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>实例。</span></li>
+</ul>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
+color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'>&lt;bean id=</span><span
+style='color:#B43512'>&quot;lazy</span><span style='color:blue'>&quot; class=</span><span
+style='color:#B43512'>&quot;com.something.ExpensiveToCreateBean&quot;</span><span
+style='color:blue'> lazy-init=</span><span style='color:#B43512'>&quot;true&quot;</span><span
+style='color:blue'>/&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'>&lt;bean name=</span><span
+style='color:#B43512'>&quot;not.lazy&quot;</span><span style='color:blue'>
+class=</span><span style='color:#B43512'>&quot;com.something.AnotherBean&quot;</span><span
+style='color:blue'>/&gt;</span></p>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:#70AD47'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>当</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>ApplicationContext</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>使用前面的配置时，</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>ApplicationContext
+     </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>启动时就不会急于预先实例化</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> lazy bean</span><span style='font-family:
+     "Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>，而</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN> not.lazy
+     Bean </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>则会急于预先实例化。但是，当延迟初始化的</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> bean </span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt' lang=zh-CN>是未延迟初始化的单例</span><span style='font-family:
+     "Comic Sans MS";font-size:12.0pt' lang=zh-CN> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>的依赖项时，</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>ApplicationContext
+     </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
+     lang=zh-CN>将在启动时创建延迟初始化的</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt' lang=zh-CN> bean</span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt' lang=zh-CN>，因为它必须满足单例的依赖关系。延迟初始化的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>被注入到其他未延迟初始化的单例</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>中。</span></li>
+</ul>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#ED7D31'
+lang=en-US>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>要懒加载</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>，还可以使用</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>
+     &lt;beans&gt;<span style='mso-spacerun:yes'>  </span></span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=zh-CN>default-lazy-init</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US> </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>属性控制</span></li>
+</ul>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
+color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'>&lt;beans default-lazy-init=</span><span
+style='color:#B43512'>&quot;true&quot;</span><span style='color:blue'>&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue'><span style='mso-spacerun:yes'> 
+</span></span><span style='color:#70AD47'><span
+style='mso-spacerun:yes'>  </span>&lt;!-- no beans will be pre-instantiated...
+--&gt;</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt;color:blue'>&lt;/beans&gt;</p>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:#70AD47'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#70AD47'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#70AD47'>&nbsp;</p>
+
+<p style='font-size:13.5pt'><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"'>从自动装配中排除</span><span style='font-weight:bold;
+font-family:"Comic Sans MS"'> Bean</span><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"'>（</span><span style='font-weight:bold;
+font-family:"Comic Sans MS"'>candidates</span><span style='font-weight:bold;
+font-family:"Microsoft YaHei UI"'>）</span></p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>在每个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的基础上，可以从自动装配中排除一个</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。使用</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Spring </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> XML </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>格式，将</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> &lt;bean/&gt; </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>元素的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> autowire-candidate </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性设置为</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> false</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。容器会使特定的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>定义不可用于自动装配（包括注释样式的配置，如</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>@Autowired</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>）</span></li>
+</ul>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
+color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+font-size:12.0pt'><span style='color:blue' lang=zh-CN>&lt;bean candidates=</span><span
+style='color:#B43512' lang=zh-CN>&quot;</span><span style='color:#B43512'
+lang=en-US>false</span><span style='color:#B43512' lang=zh-CN>&quot;</span><span
+style='color:blue' lang=zh-CN>&gt;&lt;/beans&gt;</span></p>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:#70AD47'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>还可以基于与</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>名称的模式匹配来限制自动装配候选。顶级</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> &lt;beans/&gt; </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>元素在其</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>
+     default-autowire-candidates </span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>属性内接受一个或多个模式。</span></li>
+</ul>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>例如，要将自动装配候选状态限制为名称以</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Repository </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>结尾的任何</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>，请提供值</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> *Repository</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。要提供多种模式，请在以逗号分隔的列表中定义它们。
+     </span></li>
+</ul>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt;
+color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'><span style='color:blue' lang=zh-CN>&lt;bean</span><span
+style='color:blue' lang=en-US>s</span><span style='color:blue' lang=zh-CN>
+default-autowire-candidates=</span><span style='color:#B43512' lang=zh-CN>&quot;*Repository&quot;</span><span
+style='color:blue' lang=zh-CN>&gt;</span></p>
+
+<p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:blue' lang=en-US>…</p>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:blue'>&lt;/beans&gt;</p>
+
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'><span
+style='font-weight:bold'>注</span></p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>Bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>定义的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> autowire-candidate </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> true </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>或</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> false </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的显式值始终优先。对于此类</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>，模式匹配规则不适用。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>autowire-candidate </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>属性旨在仅影响基于类型的自动装配。它不会影响按名称显示的显式引用，即使未将指定的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>标记为自动装配候选，该名称也可得到解析。因此，如果名称匹配，按名称自动装配仍会注入</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>。</span></li>
+</ul>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+
+<p style='font-family:"Comic Sans MS";font-size:12.0pt;color:#70AD47'>&nbsp;</p>
+
 <p style='font-size:12.0pt'><span style='font-family:"Microsoft YaHei UI"'
 lang=zh-CN>来自</span><span style='font-family:"Comic Sans MS"' lang=en-US>&lt; </span><a
-href="https://blog.csdn.net/ZixiangLi/article/details/87937819"><span
-style='font-family:"Comic Sans MS"' lang=zh-CN>https://blog.csdn.net/ZixiangLi/article/details/87937819</span></a><span
+href="https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference/core.html#beans"><span
+style='font-family:"Comic Sans MS"' lang=zh-CN>https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference/core.html#beans</span></a><span
 style='font-family:"Comic Sans MS"' lang=en-US>&gt;</span></p>
 
 </div>

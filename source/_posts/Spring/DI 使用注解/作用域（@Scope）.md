@@ -212,51 +212,8 @@ date:
 
 </div>
 
-<p style='margin-top:0pt;margin-bottom:12pt;font-family:"Microsoft YaHei UI";
-font-size:12.0pt;color:#70AD47'><span style='font-weight:bold'>示例</span></p>
-
-<div style='direction:ltr'>
-
-<table border=0 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
- border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
- 0pt;margin-left:.3333in' title="" summary="">
- <tr>
-  <td style='border-width:0pt;background-color:white;vertical-align:top;
-  width:2.4222in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt;color:#FFC000'>@Controller</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Comic Sans MS";color:#FFC000'>@RequestMapping</span><span
-  style='font-family:"Comic Sans MS";color:black'>(</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>“</span><span
-  style='font-family:"Comic Sans MS";color:black'>/test</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>”</span><span
-  style='font-family:"Comic Sans MS";color:black'>)</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Comic Sans MS";color:#FFC000'>@Scope</span><span
-  style='font-family:"Comic Sans MS";color:black'>(</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>“</span><span
-  style='font-family:"Comic Sans MS";color:black'>prototype</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>”</span><span
-  style='font-family:"Comic Sans MS";color:black'>)</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>class</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>TestController</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt;color:black'>}</p>
-  </td>
- </tr>
-</table>
-
-</div>
-
-<p style='margin-top:0pt;margin-bottom:12pt;font-family:"Microsoft YaHei UI";
-font-size:12.0pt'><span style='font-weight:bold'>注</span></p>
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt;color:#24292E'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
@@ -314,7 +271,51 @@ font-size:12.0pt'>&nbsp;</p>
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>作用域。</span></li>
 </ul>
 
-<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+<p style='margin-top:0pt;margin-bottom:12pt;font-family:"Microsoft YaHei UI";
+font-size:12.0pt;color:#70AD47'><span style='font-weight:bold'>示例</span></p>
+
+<div style='direction:ltr'>
+
+<table border=0 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 0pt;margin-left:.3333in' title="" summary="">
+ <tr>
+  <td style='border-width:0pt;background-color:white;vertical-align:top;
+  width:2.4222in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt;color:#FFC000'>@Controller</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Comic Sans MS";color:#FFC000'>@RequestMapping</span><span
+  style='font-family:"Comic Sans MS";color:black'>(</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>“</span><span
+  style='font-family:"Comic Sans MS";color:black'>/test</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>”</span><span
+  style='font-family:"Comic Sans MS";color:black'>)</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Comic Sans MS";color:#FFC000'>@Scope</span><span
+  style='font-family:"Comic Sans MS";color:black'>(</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>“</span><span
+  style='font-family:"Comic Sans MS";color:black'>prototype</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>”</span><span
+  style='font-family:"Comic Sans MS";color:black'>)</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Comic Sans MS";color:blue'>public</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue'>class</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>TestController</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>{</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt;color:black'>}</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style='margin-top:0pt;margin-bottom:12pt;font-family:"Microsoft YaHei UI";
+font-size:12.0pt'><span style='font-weight:bold'>注</span></p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
@@ -340,7 +341,49 @@ font-size:12.0pt'>&nbsp;</p>
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>作用域在多线程下是不安全的</span></li>
 </ul>
 
-<p style='font-family:"Comic Sans MS";font-size:12.0pt'>&nbsp;</p>
+<p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>如果将依赖项原型的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>依赖项注入到单例范围的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>中，则将实例化新的原型</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>，然后将依赖项注入到单例</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>中。原型实例是曾经提供给单例范围的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的唯一实例。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Microsoft YaHei UI";
+font-size:12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>但是，假设希望单例作用域的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>在运行时重复获取原型作用域的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的新实例。不能将原型作用域的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>依赖项注入到单例</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>中，因为当</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Spring </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器实例化单例</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>并解析并注入其依赖项时，该注入仅发生一次。如果在运行时多次需要一个原型</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>的新实例</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
