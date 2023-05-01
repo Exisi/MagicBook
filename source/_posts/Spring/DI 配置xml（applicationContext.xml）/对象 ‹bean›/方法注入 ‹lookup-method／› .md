@@ -132,85 +132,150 @@ style='font-family:"Comic Sans MS";color:#7DA700'>theMethodName(</span><span
 style='font-family:"Comic Sans MS";color:black'>no-arguments</span><span
 style='font-family:"Comic Sans MS";color:#7DA700'>);</span></p>
 
-<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
- margin-bottom:0in'>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>public|protected</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>要求方法必须是可以被子类重写和调用的；</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>abstract</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>可选，如果是抽象方法，</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>CGLIB</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>的动态代理类就会实现这个方法，如果不是抽象方法，就会覆盖这个方法，所以没什么影响；</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>return-type</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>就是</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>non-singleton-bean</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>的类型，当然可以是它的父类或者接口。</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>no-arguments</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>不允许有参数。</span></li>
-</ul>
+<p style='margin-left:.75in;margin-top:7pt;margin-bottom:7pt;font-family:"Comic Sans MS";
+font-size:12.0pt;color:#7DA700'>&nbsp;</p>
 
-<p style='margin-left:1.125in;margin-top:7pt;margin-bottom:7pt;font-family:
-"Comic Sans MS";font-size:12.0pt;color:#333333'>&nbsp;</p>
+<div style='direction:ltr'>
 
-<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
- margin-bottom:0in'>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>假设一个单例模式的</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>bean A</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>需要引用另外一个非单例模式的</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>bean B</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>为了在我们每次引用的时候都能拿到最新的</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>bean B</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>，我们可以让</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>bean A</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>通过实现</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>ApplicationContextWare</span><span style='font-family:
-     "Microsoft YaHei UI";font-size:12.0pt'>来感知</span><span style='font-family:
-     "Comic Sans MS";font-size:12.0pt'>applicationContext</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>（即可以获得容器上下文），从而能在运行时通过</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>ApplicationContext.getBean(String
-     beanName)</span><span style='font-family:"Microsoft YaHei UI";font-size:
-     12.0pt'>的方法来获取最新的</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>bean B</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>。</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>但是如果用</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>ApplicationContextAware</span><span style='font-family:
-     "Microsoft YaHei UI";font-size:12.0pt'>接口，就让我们与</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>Spring</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>代码耦合了，违背了控制反转使用</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>bean</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>完全由</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>Spring</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器管理</span></li>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>所以</span><span style='font-family:"Comic Sans MS";
-     font-size:12.0pt'>Spring</span><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>为我们提供了方法注入的方式来实现以上的场景。方法注入方式主要是通过</span><span
-     style='font-family:"Comic Sans MS";font-size:12.0pt'>&lt;lookup-method/&gt;</span><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>标签。</span></li>
-</ul>
+<table border=1 cellpadding=0 cellspacing=0 valign=top style='direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt;margin-left:.7083in' title="" summary="">
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:1.6993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>参数</span></p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:black;vertical-align:top;width:3.177in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt;
+  color:white'><span style='font-weight:bold'>描述</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:white;vertical-align:top;width:1.6993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>public|protected</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:white;vertical-align:top;width:3.177in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>方法必须是可以被子类重写和调用的</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:1.6993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Comic Sans MS";font-size:11.5pt'>abstract</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.202in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Microsoft YaHei UI"'>可选，如果是抽象方法，</span><span
+  style='font-family:"Comic Sans MS"'>CGLIB</span><span style='font-family:
+  "Microsoft YaHei UI"'>的动态代理类就会实现这个方法，如果不是抽象方法，就会覆盖这个方法</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.6993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='margin-top:7pt;margin-bottom:7pt;font-family:"Comic Sans MS";
+  font-size:11.5pt'>return-type</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.177in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-size:11.5pt'><span style='font-family:"Comic Sans MS"'>non-singleton-bean</span><span
+  style='font-family:"Microsoft YaHei UI"'>的类型，当然可以是它的父类或者接口。</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:1.6993in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='margin-top:7pt;margin-bottom:7pt;font-family:"Comic Sans MS";
+  font-size:11.5pt'>no-arguments</p>
+  </td>
+  <td style='border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  background-color:#E7E6E6;vertical-align:top;width:3.177in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='font-family:"Microsoft YaHei UI";font-size:11.5pt'>不允许有参数。</p>
+  </td>
+ </tr>
+</table>
 
-<p style='margin-top:7pt;margin-bottom:7pt;font-family:"Comic Sans MS";
+</div>
+
+<p style='margin-left:.75in;margin-top:7pt;margin-bottom:7pt;font-family:"Comic Sans MS";
 font-size:12.0pt;color:#333333'>&nbsp;</p>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
- <li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:7pt;
-     margin-bottom:7pt;color:#333333'><span style='font-family:"Microsoft YaHei UI";
-     font-size:12.0pt'>假设有一个果盘，果盘里放了一些水果，比如苹果，香蕉等，我们希望我们每次在果盘里拿到的都是最新鲜的水果。</span></li>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>假设一个单例模式的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean A </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>需要引用另外一个非单例模式的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean B</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>为了在每次引用的时候都能拿到最新的</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean B</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>，可以让</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean A </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>通过实现</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>
+     ApplicationContextWare </span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>来感知</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt'> applicationContext</span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>（即可以获得容器上下文），从而能在运行时通过</span><span style='font-family:
+     "Comic Sans MS";font-size:12.0pt'> ApplicationContext.getBean(String
+     beanName) </span><span style='font-family:"Microsoft YaHei UI";font-size:
+     12.0pt'>的方法来获取最新的</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt'> bean B</span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'><span
+     style='mso-spacerun:yes'> </span></span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>但是如果用</span><span style='font-family:"Comic Sans MS";
+     font-size:12.0pt'> ApplicationContextAware </span><span style='font-family:
+     "Microsoft YaHei UI";font-size:12.0pt'>接口，就与</span><span style='font-family:
+     "Comic Sans MS";font-size:12.0pt'> Spring </span><span style='font-family:
+     "Microsoft YaHei UI";font-size:12.0pt'>代码耦合了，违背了控制反转使用</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> bean </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>完全由</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Spring </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>容器管理</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>所以</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'> Spring </span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>提供了方法注入的方式来实现以上的场景。方法注入方式主要是通过</span><span
+     style='font-family:"Comic Sans MS";font-size:12.0pt'>
+     &lt;lookup-method/&gt; </span><span style='font-family:"Microsoft YaHei UI";
+     font-size:12.0pt'>标签。</span></li>
+</ul>
+
+<p style='margin-left:.375in;font-family:"Comic Sans MS";font-size:
+12.0pt'>&nbsp;</p>
+
+<ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>假设有一个果盘，果盘里放了一些水果，比如苹果，香蕉等，我们希望我们每次在果盘里拿到的都是最新鲜的水果。</span></li>
 </ul>
 
 <p style='margin-top:3pt;margin-bottom:0pt;font-family:"Microsoft YaHei UI";
