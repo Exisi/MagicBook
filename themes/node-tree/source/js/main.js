@@ -249,7 +249,7 @@ function clickTreeDirectory() {
 	}
 
 	// 点击目录，就触发折叠动画效果
-	$(document).on("click", "#tree a[class='directory']", function (e) {
+	$(document).on("click", "#tree a", function (e) {
 		showActiveChildren($(this));
 	});
 }

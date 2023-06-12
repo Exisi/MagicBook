@@ -1,7 +1,5 @@
-
 <div id="sidebar">
 	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
-
 	<div id="site-toc">
 		<input id="search-input" class="search-input" type="search" placeholder="按回车全站搜索">
 		<div id="tree">
@@ -37,12 +35,10 @@
 					});
 					return output;
 				}
-
 			%>
-
 			<%
 				<!-- 递归输出侧边栏目录 tree -->
-				const showTree = (input,root) => {
+				const showTree = (input) => {
 
 					<!-- 按照日期排序 -->
 					input.sort(function(a, b){
@@ -55,72 +51,57 @@
 
 					<!-- 循环输出 html 结构 -->
 					input.forEach(function(node) {
-						let source = "";
 						if ( node.children == 0 ) {
+							let link_title = node.post.path.split('/').slice(3,-1).join("/");
 			%>
-						<% if(root != node.post.path){ %>
 							<ul>
-						<% } %>
-						<% if(root != node.post.path){
-							let fill_title = node.post.path.slice(0,-1).split('/');
-							fill_title.splice(0,3);
-							let title = fill_title.join("/");
-						%>
-									<li class="file<%- (is_post() && node.post._id == page._id) ? ' active' : '' %>">
-
-										<a href="<%- url_for(node.post.path) %><%-  %>" title="<%- title %>">
-						<%
-
-							if (theme.sidebar.usePostTitle) { %>
-												<%- node.post.title || node.title %>
-						<% } else { %>
-												<%- node.title %>
-						<% } %>
-										</a>
-									</li>
-									<div class="article-toc" style="display: none;"></div>
-								</ul>
+								<li class="file<%- (is_post() && node.post._id == page._id) ? ' active' : '' %>">
+									<a href="<%- url_for(node.post.path) %><%-  %>" title="<%-link_title %>">
+									<% if (theme.sidebar && theme.sidebar.usePostTitle) { %>
+										<%- node.post.title || node.title %>
+									<% } else { %>
+										<%- node.title %>
+									<% } %>
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
 			<%
-						}
-						}else {
+						} else {
+							let parent;
+							let childrens = [];
+							node.children.forEach(child => {
+								let path = child.post.path.slice(0,-1);
+								let title = path.split("/").slice(-1)[0];
+
+								if(node.title != title) {
+									childrens.push(child);
+								}else{
+									parent = child;
+								}
+							});
+			%>
+
+			<%
+							let page_title = page.path.slice(0,-1).split("/").slice(-1)[0];
+							let link_title = parent.post.path.split("/").slice(3,-1).join("/");
 			%>
 							<ul>
 								<li class="directory">
-			<%
-									list = node.title.split("/")
-									let parent_post = list[list.length-1]
-									let path = node.title+"/"+parent_post
-
-									let page_title = page.path.split("/");
-
-									let children_list = node.children;
-									let child_post = null;
-									children_list.forEach(child => {
-										if(child.post.path.indexOf(path)>0){
-											child_post = child.post;
-											source = child.post.path;
-										}
-									});
-
-									let full_title = child_post.slug;
-									let current_title = page.path.slice(0,-1).split("/");
-									current_title.splice(0,3);
-									let title = current_title.join("/");
-									%>
 									<a href="#" class="directory">
 										<i class="fa fa-plus-square-o"></i>
-										<a class="directory<%- (is_post() && full_title == title) ? ' active' : '' %>" href="<%- "/"+source %><%-  %>" title="<%- full_title %>">
+										<a class="directory <%- (node.title == page_title) ? 'active' : '' %>" href="/<%- parent.post.path %>" title="<%- link_title%>">
 											<%- node.title %>
 										</a>
 									</a>
-									<%- showTree(node.children,source) %>
+									<%- showTree(childrens) %>
 								</li>
 							</ul>
 			<%
 						}
 					});
 				}
-				showTree(pathToTree(site.posts),"")
+				showTree(pathToTree(site.posts))
 			%>
 		</div>
 	</div>
