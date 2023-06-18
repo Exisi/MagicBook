@@ -172,6 +172,7 @@ a.active {
 	display: none;
 }
 #sidebar ul {
+	position: relative;
 	padding: 0px 5px 5px 20px;
 }
 #sidebar ul li {
@@ -422,6 +423,11 @@ table td {
 #footer p {
 	padding: 5px;
 }
+
+.article-toc ul li {
+	list-style: disc !important;
+}
+
 /* @media */
 @media screen and (max-width: 850px) {
 	#sidebar {
