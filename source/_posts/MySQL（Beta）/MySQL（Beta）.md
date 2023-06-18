@@ -8,7 +8,11 @@ date:
 <ul style="list-style-type:disc">
     <li><span style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">MySQL</span></span><span
             style="font-size:12.0pt"><span
+<<<<<<< HEAD
                 style="font-family:&quot;Microsoft YaHei UI&quot;">关是一种关系数据库管理系统，所使用的</span></span><span
+=======
+                style="font-family:&quot;Microsoft YaHei UI&quot;">更新文章内容是一种关系数据库管理系统，所使用的</span></span><span
+>>>>>>> a96a935 (📃 docs(post): 更新文章内容)
             style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;"> SQL </span></span><span
             style="font-size:12.0pt"><span
                 style="font-family:&quot;Microsoft YaHei UI&quot;">语言是用于访问数据库的最常用的标准化语言</span></span></li>
