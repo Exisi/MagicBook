@@ -3,29 +3,35 @@
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 
 	<!-- title -->
-	<% 
-		var title = page.title; 
+	<%
+		let title = page.title;
 		if ( title == '' ) {
-			var title = page.slug.split("/")[page.slug.split("/").length-1]
+			let title = page.slug.split("/")[page.slug.split("/").length-1]
 		}else {
-			var title = page.title; 
+			let title = page.title;
 		};
 	%>
 	<title>
 	<% if (title){ %>
-		<%= title %> | 
-	<% } %> 
+		<%= title %> |
+	<% } %>
 	<%= config.title %>
 	</title>
 
 	<!-- keywords,description -->
 	<% if (page.keywords){ %>
 		<meta name="keywords" content="<%= page.keywords %>,<%= config.keywords %>" />
-	<% } else if (config.keywords){ %>
+	<% } %>
+
+	<% if (config.keywords){ %>
 		<meta name="keywords" content="<%= config.keywords %>" />
-	<% } %> <% if (page.description){ %>
+	<% } %>
+
+	<% if (page.description){ %>
 		<meta name="description" content="<%= page.description %>" />
-	<% } else if (config.description){ %>
+	<% } %>
+
+	<% if (config.description){ %>
 		<meta name="description" content="<%= config.description %>" />
 	<% } %>
 
@@ -37,11 +43,11 @@
 
 	<!-- search -->
 	<script>
-		var searchEngine = "<%- theme.searchEngine %>";
+		let searchEngine = "<%- theme.searchEngine %>";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "<%- theme.homeHost %>";
+		let homeHost = "<%- theme.homeHost %>";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -67,15 +73,15 @@
 	<% } %>
 
 	<% if (theme.baiduanalysis.enable){ %>
-	<script>
-			var _hmt = _hmt || [];
-			(function () {
-				var hm = document.createElement("script");
-				hm.src = "<%- theme.baiduanalysis.src %>";
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(hm, s);
-			})();
-	</script>
+		<script>
+				let _hmt = _hmt || [];
+				(function () {
+					let hm = document.createElement("script");
+					hm.src = "<%- theme.baiduanalysis.src %>";
+					let s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+		</script>
 	<% } %>
 
 	<% if (theme.googleanalysis.enable){ %>
