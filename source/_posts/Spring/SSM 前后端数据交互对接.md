@@ -13,14 +13,14 @@ date:
 
 <div style='direction:ltr;border-width:100%'>
 
-<div style='direction:ltr;margin-top:0in;margin-left:0in;width:9.5215in'>
+<div style='direction:ltr;margin-top:0in;margin-left:0in;width:8.7347in'>
 
-<div style='direction:ltr;margin-top:0in;margin-left:0in;width:9.5215in'>
+<div style='direction:ltr;margin-top:0in;margin-left:0in;width:8.7347in'>
 
 <ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
  margin-bottom:0in'>
  <li style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
-     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>为了满足不同业务需求，</span><span
+     style='font-family:"Microsoft YaHei UI";font-size:12.0pt' lang=zh-CN>前后端分离的场景下，为了满足不同业务需求，</span><span
      style='font-family:"Comic Sans MS";font-size:12.0pt' lang=en-US>Controller
      </span><span style='font-family:"Microsoft YaHei UI";font-size:12.0pt'
      lang=zh-CN>层接口可能会返回类似下面的数据。实际开发中，不同开发人员如果有不同的数据封装方式，后端数据传递到前端数据就会不统一，导致数据传递的多样化。前端获取数据时，分析数据时就会混乱，同时也会导致无法分辨</span><span
@@ -142,61 +142,146 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Comic Sans MS";color:blue'>public</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>class</span><span
+  style='font-family:"Comic Sans MS";color:black'>enum</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result</span><span
-  style='font-family:"Comic Sans MS";color:#70AD47'>&lt;T&gt;</span><span
+  style='font-family:"Comic Sans MS";color:black'>Code</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>{</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>private</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Integer</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>code;</span></p>
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;操作成功&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>private</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#70AD47'>T</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>private</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
+  style='font-family:"Comic Sans MS";color:black'>SUCCESS(</span><span
+  style='font-family:"Comic Sans MS";color:red'>200</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt'>&nbsp;</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;客户端请求错误&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>BAD_REQUEST(</span><span
+  style='font-family:"Comic Sans MS";color:red'>400</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;未授权访问&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>UNAUTHORIZED(</span><span
+  style='font-family:"Comic Sans MS";color:red'>401</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;没有权限&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>FORBIDDEN(</span><span
+  style='font-family:"Comic Sans MS";color:red'>403</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;资源不存在&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>NOT_FOUND(</span><span
+  style='font-family:"Comic Sans MS";color:red'>404</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;请求方法不支持&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>METHOD_NOT_ALLOWED(</span><span
+  style='font-family:"Comic Sans MS";color:red'>405</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;请求超时&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>REQUEST_TIMEOUT(</span><span
+  style='font-family:"Comic Sans MS";color:red'>408</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;服务器内部错误&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>INTERNAL_SERVER_ERROR(</span><span
+  style='font-family:"Comic Sans MS";color:red'>500</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;服务不可用&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>SERVICE_UNAVAILABLE(</span><span
+  style='font-family:"Comic Sans MS";color:red'>503</span><span
+  style='font-family:"Comic Sans MS";color:black'>),</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>/**</span><span
+  style='font-family:"Microsoft YaHei UI";color:green'>&nbsp;网关超时&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:green'>*/</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:black'>GATEWAY_TIMEOUT(</span><span
+  style='font-family:"Comic Sans MS";color:red'>504</span><span
+  style='font-family:"Comic Sans MS";color:black'>);</span></p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
+  font-size:12.0pt'>&nbsp;</p>
+  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue'>private</span><span
+  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
+  style='font-family:"Comic Sans MS";color:blue'>final</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:#8000FF'>int</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>getCode()</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>return</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>code;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt'>&nbsp;</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>void</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>setCode(Integer</span><span
+  style='font-family:"Comic Sans MS";color:black'>Code(</span><span
+  style='font-family:"Comic Sans MS";color:#8000FF'>int</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>code)</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
@@ -218,349 +303,16 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:blue'>public</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>T</span><span
+  style='font-family:"Comic Sans MS";color:#8000FF'>int</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>getData()</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>return</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>void</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>setData(T</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.data</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>getMsg()</span><span
+  style='font-family:"Comic Sans MS";color:black'>getCode()</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>{</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:blue'>return</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>void</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>setMsg(</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.msg</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result()</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:green'>/**</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;若没有数据返回，可以人为指定状态码和提示信息</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>code</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>msg</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*/</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result(Integer</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>code,</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.code</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>code;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.msg</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:green'>/**</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;有数据返回时，状态码为&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>200</span><span style='font-family:"Microsoft YaHei UI"'>，默认提示信息为“操作成功！”</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>data</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*/</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result(</span><span
-  style='font-family:"Comic Sans MS";color:#70AD47'>T</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.data</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.code</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Code.SUCCESS.getCode();</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.msg</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:maroon'>&quot;success&quot;</span><span
-  style='font-family:"Comic Sans MS";color:black'>;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:green'>/**</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;有数据返回，状态码为&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>200</span><span style='font-family:"Microsoft YaHei UI"'>，人为指定提示信息</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>data</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>msg</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*/</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result(</span><span
-  style='font-family:"Comic Sans MS";color:#70AD47'>T</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data,</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.code</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Code.SUCCESS.getCode();</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.data</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.msg</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>}</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt'>&nbsp;</p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:green'>/**</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;有数据返回，人为指定状态码、提示信息</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>data</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>msg</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*</span><span style='font-family:"Microsoft YaHei UI"'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>@param</span><span style='font-family:
-  "Microsoft YaHei UI"'>&nbsp;</span><span style='font-family:"Comic Sans MS"'>code</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:green'><span
-  style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS"'>*/</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>public</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>Result(Integer</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>code,</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#70AD47'>T</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data,</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:#8000FF'>String</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg)</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>{</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.code</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>code;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.data</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>data;</span></p>
-  <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:blue'>this</span><span
-  style='font-family:"Comic Sans MS";color:black'>.msg</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>=</span><span
-  style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
-  style='font-family:"Comic Sans MS";color:black'>msg;</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
   style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS"'>}</span></p>
@@ -942,7 +694,7 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
  0pt;margin-left:.7083in' title="" summary="">
  <tr>
   <td style='border-width:0pt;background-color:white;vertical-align:top;
-  width:8.8034in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  width:7.9798in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt;color:#FFC000'>@RestController</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
