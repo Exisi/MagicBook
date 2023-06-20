@@ -1,22 +1,14 @@
-## Hexo 主题 Node-Tree
+## Node-Tree Hexo 主题
 
-Node-Tree 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的目录结构的树状主题，修改和增加了部分功能：
+Node-Tree 基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的树状目录主题，部分布局优化更好的适配移动端，同时增加了深色模式
 
-1.  日期排序
-2.  适配手机端
-3.  优化界面样式
-4.  顶层目录即文章，顶层目录文章读取于目录下的同名 Markdown 文件
-5.  添加 giscus 评论功能
-6.  添加百度分析和谷歌分析的配置
-7.  顶层目录的全展开和全收起
+为了更好的预览目录，目录也将作为文章，顶层目录允许全展开和全收起
 
-主要功能是 “树状导航” + “树状目录”，可选配“评论”和“阅读量”功能，支持基于搜索引擎的全站搜索。通过 fancybox 支持图片点击放大。
+可选`评论`、`阅读量`和`网站统计`功能，支持目录搜索和基于搜索引擎的站内搜索，以及对图片的预览功能。
 
 Demo：[https://m.exi.ink](https://m.exi.ink)
 
-##### 注
-
-请保持每个目录中文章发布时间的正确顺序，否则生成的文章的上下页可能出错
+因为采用了时间排序，请保持每个目录中文章发布时间的正确顺序，否则生成的文章的上下页可能出错
 
 ## 使用说明
 
@@ -43,6 +35,7 @@ giscus:
 
 如果不使用 `giscus`，则设置
 
+```
 giscus:
 enableComment: false
 
@@ -59,6 +52,7 @@ appKey:
 ```
 
 若不需使用，则设置
+
 ```
 
 valine:
@@ -68,29 +62,37 @@ enableCounter: false
 ```
 
 ### 3 导航栏和图标
+
 - 导航栏：当前没有配置化，需要修改`themes/tree/layout/_partial` 路径下的 `header.ejs` 文件
 - 图标：替换`themes/tree/source` 路径下的`favicon.ico` 文件
 
-### 4 about 页
+### 4 关于页
+
 在 `source`路径下，与`_posts`文件夹平行，建立一个`about`页
 
 执行
+
 ```
 
 hexo new page --path about/index "About"
 
 ```
+
 参考：https://hexo.io/zh-cn/docs/commands.html#new
 
 ### 5 文章树、目录树
-页面左侧的文章树是根据 source 文件夹里的文章和文件夹生成的，文章默认按照文章的时间进行排序，越早的文章排在最前
+
+页面左侧的文章树根据 source 文件夹下的文章和文件夹生成，文章按照文章的时间进行排序，发布时间越早的文章排在最前
+
 同目录下的文章取最晚日期排序，如果需要将目录权重提前，请确保所有日期在相关文章之前
-目录节点的文章默认为同目录下的同名 Markdown 文件
+
+目录（即文件夹）节点的文章为同目录下的同名 Markdown 文件，并且此文件是必须的
 
 修改主题 `tree` 目录的 `_config.yml`, `sidebar.usePostTitle`可以控制目录树中展示文件名还是文章名
+
 ```
 
-# 左侧导航栏，用文件名还是文章名
+##### 左侧导航栏，用文件名还是文章名
 
 sidebar:
 
@@ -101,22 +103,28 @@ usePostTitle: true
 ```
 
 ### 6 全站搜索
+
 修改主题 `tree` 目录的 `_config.yml`
 
 站点如果【被搜索引擎收录】，可以配置通过搜索引擎全站搜索
+
 - searchEngine: 你选择的搜索引擎搜索 url，默认谷歌，例如"https://www.baidu.com/s?wd="、"https://www.google.com/search?q="
 - homeHost: 你的域名，默认当前页面的域名
 
 ### 7 tags 页
+
 在 `source`路径下，与`_posts`文件夹平行，建立一个`tags`页
 
 执行
+
 ```
 
 hexo new page "tags"
 
 ```
+
 编辑 source/tags/index.md
+
 ```
 
 ---
@@ -129,23 +137,29 @@ layout: "tags"
 ---
 
 ```
+
 修改主题 `tree` 目录的 `_config.yml`，添加
+
 ```
 
 tags: true
 
 ```
 
-### 8 categories 页
+### 8 分类页
+
 在 `source`路径下，与`_posts`文件夹平行，建立一个`categories`页
 
 执行
+
 ```
 
 hexo new page "categories"
 
 ```
+
 编辑 source/tags/index.md
+
 ```
 
 ---
@@ -158,31 +172,34 @@ layout: "categories"
 ---
 
 ```
+
 修改主题 `tree` 目录的 `_config.yml`，添加
+
 ```
 
 categories: true
 
-````
+```
 
-### 9 pjax
+### 9 静默跳转
+
 主题默认支持了 pjax 跳转，但是在网速慢的时候，pjax 因为没有页面刷新的交互，可能会让人误以为点击没响应。
 
 如果要去掉 pjax 特性，注释掉主题 'source/js/main.js' 文件中的 'pjaxLoad()' 方法就好。
 
 ```js
 $(document).ready(function () {
-  hljs.initHighlightingOnLoad();
-  clickTreeDirectory();
-  serachTree();
-  // pjaxLoad();
-  showArticleIndex();
-  switchTreeOrIndex();
-  scrollToTop();
-  pageScroll();
-  wrapImageWithFancyBox();
+	hljs.initHighlightingOnLoad();
+	clickTreeDirectory();
+	serachTree();
+	// pjaxLoad();
+	showArticleIndex();
+	switchTreeOrIndex();
+	scrollToTop();
+	pageScroll();
+	wrapImageWithFancyBox();
 });
-````
+```
 
 ## 其他
 
