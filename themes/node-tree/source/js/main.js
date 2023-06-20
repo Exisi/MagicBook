@@ -9,6 +9,7 @@ $(document).ready(function () {
 	pageScroll();
 	wrapImageWithFancyBox();
 	toggleAll();
+	switchDarkMode();
 });
 
 // 页面滚动
@@ -416,5 +417,22 @@ function toggleAll() {
 				$(this).click();
 			});
 		});
+	});
+}
+
+function switchDarkMode() {
+	$("#menu .dark-mode i").on("click", function () {
+		if ($(this).hasClass("fa-moon-o")) {
+			$(this).removeClass("fa-moon-o");
+			$(this).addClass("fa-sun-o");
+			return DarkReader.enable({
+				brightness: 100,
+				contrast: 90,
+				sepia: 10,
+			});
+		}
+		$(this).removeClass("fa-sun-o");
+		$(this).addClass("fa-moon-o");
+		return DarkReader.disable();
 	});
 }
