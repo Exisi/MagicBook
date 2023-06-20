@@ -111,7 +111,7 @@ usePostTitle: true
 - searchEngine: 你选择的搜索引擎搜索 url，默认谷歌，例如"https://www.baidu.com/s?wd="、"https://www.google.com/search?q="
 - homeHost: 你的域名，默认当前页面的域名
 
-### 7 tags 页
+### 7 标签页
 
 在 `source`路径下，与`_posts`文件夹平行，建立一个`tags`页
 
