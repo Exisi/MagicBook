@@ -749,7 +749,7 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   <td style='border-width:0pt;background-color:white;vertical-align:top;
   width:7.0437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt;color:#FFC000'>@ControllerAdvice</p>
+  font-size:12.0pt;color:#FFC000'>@RestControllerAdvice</p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Comic Sans MS";color:blue'>public</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
