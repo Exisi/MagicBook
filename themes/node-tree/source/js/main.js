@@ -221,7 +221,7 @@ function serachTree() {
 		e.preventDefault();
 		if (e.keyCode == 13) {
 			let inputContent = e.currentTarget.value;
-			if (!inputContent.length === 0) {
+			if (inputContent.length) {
 				window.open(searchEngine + inputContent + "%20site:" + homeHost, "_blank");
 			}
 		}
