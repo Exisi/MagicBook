@@ -192,6 +192,10 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:black'>resultCode)</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>{</span></p>
+  <p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:
+  "Comic Sans MS";font-size:12.0pt'><span style='color:blue' lang=zh-CN>super</span><span
+  style='color:black' lang=zh-CN>(resultCode</span><span style='color:black'
+  lang=en-US>.getMsg()</span><span style='color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:blue'>this</span><span
@@ -370,6 +374,10 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:black'>resultCode)</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black'>{</span></p>
+  <p style='margin-left:.375in;margin-top:5pt;margin-bottom:5pt;font-family:
+  "Comic Sans MS";font-size:12.0pt'><span style='color:blue' lang=zh-CN>super</span><span
+  style='color:black' lang=zh-CN>(resultCode</span><span style='color:black'
+  lang=en-US>.getMsg()</span><span style='color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:blue'>this</span><span
