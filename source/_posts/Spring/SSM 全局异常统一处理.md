@@ -5,7 +5,7 @@ categories:
 tags:
   - SSM
 date:
-  - 2022-11-28 14:51:02
+  - 2022-11-28 14:51:04
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
@@ -749,7 +749,8 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   <td style='border-width:0pt;background-color:white;vertical-align:top;
   width:7.0437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
-  font-size:12.0pt;color:#FFC000'>@RestControllerAdvice</p>
+  font-size:12.0pt;color:#FFC000'><span lang=zh-CN>@</span><span lang=en-US>Rest</span><span
+  lang=zh-CN>ControllerAdvice</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt'><span
   style='font-family:"Comic Sans MS";color:blue'>public</span><span
   style='font-family:"Microsoft YaHei UI";color:black'>&nbsp;</span><span
@@ -976,14 +977,13 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>new</span><span
   style='font-family:"Microsoft YaHei UI";color:black' lang=zh-CN>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>BusinessException(</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US>Result</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>Code.</span><span
-  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>BUSINESS_ERROR</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Microsoft YaHei UI";color:maroon' lang=zh-CN>数据已存在，请勿重复提交</span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=en-US> Result</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>Code.</span><span
+  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>BUSINESS_ERROR</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
   style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
@@ -1021,17 +1021,14 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>new</span><span
   style='font-family:"Microsoft YaHei UI";color:black' lang=zh-CN>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>SystemException(</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US>Result</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>CodeCode.</span><span
-  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>SYSTEM_TIMEOUT_ERROR</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Microsoft YaHei UI";color:maroon' lang=zh-CN>服务器访问超时，请重试</span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>e);</span></p>
+  style='font-family:"Comic Sans MS";color:black' lang=en-US> Result</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>CodeCode.</span><span
+  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>SYSTEM_TIMEOUT_ERROR</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
   style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS"'>}</span></p>
@@ -1361,12 +1358,6 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
  0pt;margin-left:.3333in' title="" summary="">
  <tr>
   <td style='border-width:0pt;background-color:white;vertical-align:top;
-  width:9.909in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>&nbsp;</p>
-  </td>
- </tr>
- <tr>
-  <td style='border-width:0pt;background-color:white;vertical-align:top;
   width:9.9784in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style='margin-top:5pt;margin-bottom:5pt;font-family:"Comic Sans MS";
   font-size:12.0pt;color:#FFC000'>@RestController</p>
@@ -1436,14 +1427,13 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>new</span><span
   style='font-family:"Microsoft YaHei UI";color:black' lang=zh-CN>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>BusinessException(</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US>Result</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>Code.</span><span
-  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>BUSINESS_ERROR</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Microsoft YaHei UI";color:maroon' lang=zh-CN>数据已存在，请勿重复提交</span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=en-US> Result</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>Code.</span><span
+  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>BUSINESS_ERROR</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
   style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
@@ -1481,17 +1471,14 @@ color:#70AD47'><span style='font-weight:bold'>示例</span></p>
   style='font-family:"Comic Sans MS";color:blue' lang=zh-CN>new</span><span
   style='font-family:"Microsoft YaHei UI";color:black' lang=zh-CN>&nbsp;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>SystemException(</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US>Result</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>CodeCode.</span><span
-  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>SYSTEM_TIMEOUT_ERROR</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Microsoft YaHei UI";color:maroon' lang=zh-CN>服务器访问超时，请重试</span><span
   style='font-family:"Comic Sans MS";color:maroon' lang=zh-CN>&quot;</span><span
   style='font-family:"Comic Sans MS";color:black' lang=zh-CN>,</span><span
-  style='font-family:"Comic Sans MS";color:black' lang=en-US> </span><span
-  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>e);</span></p>
+  style='font-family:"Comic Sans MS";color:black' lang=en-US> Result</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>CodeCode.</span><span
+  style='font-family:"Comic Sans MS";color:#8064A2' lang=zh-CN>SYSTEM_TIMEOUT_ERROR</span><span
+  style='font-family:"Comic Sans MS";color:black' lang=zh-CN>);</span></p>
   <p style='margin-top:5pt;margin-bottom:5pt;font-size:12.0pt;color:black'><span
   style='font-family:"Microsoft YaHei UI"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
   style='font-family:"Comic Sans MS"'>}</span></p>
