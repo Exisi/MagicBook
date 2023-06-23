@@ -5,7 +5,7 @@ tags:
   - Hibernate Validator
   - ［@GroupSequenceProvider］
 date:
-  - 2022-11-28 14:53:02
+  - 2022-11-28 22:51:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
