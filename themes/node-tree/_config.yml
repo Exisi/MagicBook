@@ -18,19 +18,6 @@ giscus:
     # 反应
     reactions: 1
 
-# valine
-valine:
-    # 评论
-    enableComment: false
-    # 阅读量
-    enableCounter: false
-    # valine appID
-    appID:
-    # valine appKey
-    appKey:
-    placeholder: 请输入评论
-    avatar: retro
-
 # 是否开启“不蒜子”统计访问量
 busuanzi: true
 

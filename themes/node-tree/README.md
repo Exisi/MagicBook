@@ -41,26 +41,6 @@ enableComment: false
 
 ```
 
-如果要使用 `valine` 的评论及阅读量功能，需要在 `themes/note-tree` 路径下的 `_config.yml` 文件中，填写自己申请的 `leancloud` 账户下面的 `appID` 和 `appKey`
-
-```
-
-valine:
-appID:
-appKey:
-
-```
-
-若不需使用，则设置
-
-```
-
-valine:
-enableComment: false
-enableCounter: false
-
-```
-
 ### 3 导航栏和图标
 
 - 导航栏：当前没有配置化，需要修改`themes/tree/layout/_partial` 路径下的 `header.ejs` 文件
