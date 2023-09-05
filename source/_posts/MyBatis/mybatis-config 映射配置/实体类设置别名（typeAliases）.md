@@ -1,11 +1,10 @@
+---
 categories:
-
-- MyBatis
-  tags:
-- typeAliases
-  date:
-- 2023-3-27 7:11:02
-
+  - MyBatis
+tags:
+  - typeAliases
+date:
+  - 2023-3-27 7:11:02
 ---
 
 <ul style="list-style-type:disc">
