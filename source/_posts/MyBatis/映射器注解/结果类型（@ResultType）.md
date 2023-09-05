@@ -2,7 +2,7 @@
 categories:
   - MyBatis
 date:
-  - 2023-3-27 7:45:32
+  - 2021-3-27 7:45:32
 tags:
   - ［@ResultType］
 ---
