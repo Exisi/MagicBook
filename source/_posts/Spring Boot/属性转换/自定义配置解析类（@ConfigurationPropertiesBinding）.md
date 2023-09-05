@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@ConfigurationPropertiesBinding］
+  - ［@ConfigurationPropertiesBinding］
 date:
-- 2022-11-28 15:28:41
+  - 2022-9-28 15:28:41
 ---
 
 <ul style="list-style-type:disc">

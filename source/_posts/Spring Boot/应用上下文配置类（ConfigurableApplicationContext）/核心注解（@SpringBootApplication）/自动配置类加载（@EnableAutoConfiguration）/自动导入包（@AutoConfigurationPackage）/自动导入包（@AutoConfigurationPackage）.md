@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@AutoConfigurationPackage］
+  - ［@AutoConfigurationPackage］
 date:
-- 2022-11-28 15:14:34
+  - 2022-9-28 15:14:34
 ---
 
 <ul style="list-style-type:disc">

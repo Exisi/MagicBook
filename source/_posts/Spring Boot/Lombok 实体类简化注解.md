@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- Lombok
+  - Lombok
 date:
-- 2022-11-28 15:30:15
+  - 2022-9-28 15:30:15
 ---
 
 <ul style="list-style-type:disc">

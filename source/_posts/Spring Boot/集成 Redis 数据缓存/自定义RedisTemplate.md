@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- RedisTemplate
+  - RedisTemplate
 date:
-- 2022-11-28 15:52:37
+  - 2022-9-28 15:52:37
 ---
 
 <ul style="list-style-type:disc">

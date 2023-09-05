@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ConfigurableApplicationContext
+  - ConfigurableApplicationContext
 date:
-- 2022-11-28 15:11:03
+  - 2022-9-28 15:11:03
 ---
 
 <ul style="list-style-type:disc">

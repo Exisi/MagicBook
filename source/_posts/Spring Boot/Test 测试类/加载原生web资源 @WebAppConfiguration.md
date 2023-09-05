@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@WebAppConfiguration］
+  - ［@WebAppConfiguration］
 date:
-- 2022-11-28 15:10:55
+  - 2022-9-28 15:10:55
 ---
 
 <ul style="list-style-type:disc">

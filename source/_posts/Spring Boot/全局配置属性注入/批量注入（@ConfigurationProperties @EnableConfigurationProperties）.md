@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@ConfigurationProperties］
-- ［@EnableConfigurationProperties］
+  - ［@ConfigurationProperties］
+  - ［@EnableConfigurationProperties］
 date:
-- 2022-11-28 15:25:11
+  - 2022-9-28 15:25:11
 ---
 
 <ul style="list-style-type:disc">

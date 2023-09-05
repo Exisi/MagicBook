@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@SpringBootApplication］
+  - ［@SpringBootApplication］
 date:
-- 2022-11-28 15:12:13
+  - 2022-9-28 15:12:13
 ---
 
 <ul style="list-style-type:disc">

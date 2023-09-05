@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- Mybatis
+  - Mybatis
 date:
-- 2022-11-28 15:37:29
+  - 2022-9-28 15:37:29
 ---
 
 <ul style="list-style-type:disc">

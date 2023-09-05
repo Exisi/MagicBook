@@ -1,10 +1,10 @@
 ---
 categories:
-- MyBatis
+  - MyBatis
 tags:
-- settings
+  - settings
 date:
-- 2022-11-27 7:11:01
+  - 2023-3-27 7:11:01
 ---
 
 <p style="margin-left:36px"><span style="font-size:12.0pt"><span style="color:#333333"><span

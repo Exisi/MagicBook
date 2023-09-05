@@ -1,8 +1,8 @@
 ---
 categories:
-- MyBatis
+  - MyBatis
 date:
-- 2022-11-27 7:08:00
+  - 2023-3-27 7:08:00
 ---
 
 <p><span style="font-size:13.5pt"><strong><span style="font-family:&quot;Comic Sans MS&quot;">XML

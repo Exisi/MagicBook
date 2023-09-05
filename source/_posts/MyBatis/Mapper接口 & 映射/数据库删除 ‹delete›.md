@@ -1,10 +1,10 @@
 ---
 categories:
-- MyBatis
+  - MyBatis
 tags:
-- ‹delete›
+  - ‹delete›
 date:
-- 2022-11-27 7:26:01
+  - 2023-3-27 7:26:01
 ---
 
 <ul style="list-style-type:disc">

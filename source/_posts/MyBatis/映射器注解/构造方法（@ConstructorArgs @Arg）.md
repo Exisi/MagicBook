@@ -2,7 +2,7 @@
 categories:
   - MyBatis
 date:
-  - 2022-11-27 7:45:02
+  - 2023-3-27 7:45:02
 tags:
   - ［@ConstructorArgs］
   - ［@Arg］

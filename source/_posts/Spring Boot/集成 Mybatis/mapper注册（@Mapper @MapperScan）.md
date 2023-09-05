@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring Boot
+  - Spring Boot
 tags:
-- ［@Mapper］
-- ［@MapperScan］
+  - ［@Mapper］
+  - ［@MapperScan］
 date:
-- 2022-11-28 15:39:29
+  - 2022-9-28 15:39:29
 ---
 
 <ul style="list-style-type:disc">
