@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹!DOCTYPE›
+  - ‹!DOCTYPE›
 date:
-- 2022-11-1 12:22:22
+  - 2020-6-1 12:22:22
 ---
 
 <div style="direction: ltr; border-width: 100%;">

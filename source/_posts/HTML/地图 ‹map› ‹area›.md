@@ -1,13 +1,12 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹map›
-- ‹area›
+  - ‹map›
+  - ‹area›
 date:
-- 2022-11-9 14:05:15
+  - 2020-6-9 14:05:15
 ---
-
 
 <ul style="list-style-type:disc">
     <li>&nbsp;<span style="font-size:12.0pt"><span

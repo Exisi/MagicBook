@@ -1,11 +1,11 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹select›
-- ‹option›
+  - ‹select›
+  - ‹option›
 date:
-- 2022-11-7 15:05:15
+  - 2020-6-7 15:05:15
 ---
 
 <ul style="list-style-type:disc">

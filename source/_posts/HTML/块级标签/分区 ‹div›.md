@@ -1,12 +1,11 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹div›
+  - ‹div›
 date:
-- 2022-11-2 11:11:11
+  - 2020-6-2 11:11:11
 ---
-
 
 <ul style="list-style-type:disc">
 	<li><span style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">&lt;div&gt;

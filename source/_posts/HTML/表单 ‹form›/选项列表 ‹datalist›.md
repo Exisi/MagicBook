@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹datalist›
+  - ‹datalist›
 date:
-- 2022-11-7 16:05:15
+  - 2020-6-7 16:05:15
 ---
 
 <ul style="list-style-type:disc">

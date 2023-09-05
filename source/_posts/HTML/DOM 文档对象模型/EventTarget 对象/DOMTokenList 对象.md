@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- DOMTokenList
+  - DOMTokenList
 date:
-- 2022-11-12 13:00:15
+  - 2020-6-12 13:00:15
 ---
 
 <ul style="list-style-type:disc">

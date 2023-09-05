@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- MutationObserver
+  - MutationObserver
 date:
-- 2022-11-16 12:00:15
+  - 2020-6-16 12:00:15
 ---
 
 <ul style="list-style-type:disc">

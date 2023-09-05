@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- NodeList
+  - NodeList
 date:
-- 2022-11-18 15:00:15
+  - 2020-6-18 15:00:15
 ---
 
 <ul style="list-style-type:disc">

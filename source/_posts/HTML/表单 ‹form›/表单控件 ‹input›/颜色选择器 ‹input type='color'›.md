@@ -1,10 +1,10 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹input›
+  - ‹input›
 date:
-- 2022-11-6 14:55:15
+  - 2020-6-6 14:55:15
 ---
 
 <ul style="list-style-type:disc">

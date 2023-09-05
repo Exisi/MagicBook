@@ -1,11 +1,12 @@
 ---
 categories:
-- HTML
+  - HTML
 tags:
-- ‹head›
+  - ‹head›
 date:
-- 2022-11-1 12:44:22
+  - 2020-6-1 12:44:22
 ---
+
 <ul style="list-style-type:disc">
     <li><span style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">&lt;head&gt;
             </span></span><span style="font-size:12.0pt"><span
