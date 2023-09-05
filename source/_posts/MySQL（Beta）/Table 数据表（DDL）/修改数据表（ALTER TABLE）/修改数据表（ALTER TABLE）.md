@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- ALTER TABLE
+  - DDL
+  - ALTER TABLE
 date:
-- 2023-1-29 14:51:06
+  - 2023-1-29 14:51:06
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>

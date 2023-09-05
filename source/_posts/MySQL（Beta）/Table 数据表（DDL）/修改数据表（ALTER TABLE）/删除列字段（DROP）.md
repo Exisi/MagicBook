@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- DROP
+  - DDL
+  - DROP
 date:
-- 2023-1-29 14:53:55
+  - 2023-1-29 14:53:55
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
@@ -149,4 +150,3 @@ style='mso-spacerun:yes'>  </span>Warnings: </span><span style='color:#880000'>
 
 <!--EndFragment-->
 </body>
-

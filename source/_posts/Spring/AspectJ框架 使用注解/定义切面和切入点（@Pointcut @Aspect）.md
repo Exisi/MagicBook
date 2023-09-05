@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Pointcut］
-- ［@Aspect］
+  - ［@Pointcut］
+  - ［@Aspect］
 date:
-- 2022-11-28 8:42:32
+  - 2022-11-28 8:42:32
 ---
 
 <p><span style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">&nbsp;</span></span></p>

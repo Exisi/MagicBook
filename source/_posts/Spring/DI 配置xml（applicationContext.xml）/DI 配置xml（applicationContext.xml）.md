@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- applicationContext.xml
+  - applicationContext.xml
 date:
-- 2022-11-28 7:33:01
+  - 2022-11-28 7:33:01
 ---
 
 <ul style="list-style-type:disc">

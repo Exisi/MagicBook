@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ‹context：component-scan›
+  - ‹context：component-scan›
 date:
-- 2022-11-28 7:34:01
+  - 2022-11-28 7:34:01
 ---
 
 <ul style="list-style-type:disc">

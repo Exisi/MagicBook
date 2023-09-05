@@ -1,13 +1,14 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- SHOW TABLE
-- DESC
-- SHOW CREATE TABLE
-- SHOW COLUMNS FROM
+  - DDL
+  - SHOW TABLE
+  - DESC
+  - SHOW CREATE TABLE
+  - SHOW COLUMNS FROM
 date:
-- 2023-1-29 14:50:56
+  - 2023-1-29 14:50:56
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>

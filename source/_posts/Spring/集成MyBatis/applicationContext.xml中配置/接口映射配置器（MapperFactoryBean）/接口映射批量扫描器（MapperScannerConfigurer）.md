@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- MapperScannerConfigurer
+  - MapperScannerConfigurer
 date:
-- 2022-11-28 8:54:41
+  - 2022-11-28 8:54:41
 ---
 
 <ul style="list-style-type:disc">

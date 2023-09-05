@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- AspectJ
+  - AspectJ
 date:
-- 2022-11-28 8:20:34
+  - 2022-11-28 8:20:34
 ---
 
 <ul style="list-style-type:disc">

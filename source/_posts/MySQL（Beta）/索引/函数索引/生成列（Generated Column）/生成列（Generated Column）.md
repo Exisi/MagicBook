@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- Generated Column
+  - Generated Column
 date:
-- 2023-4-9 18:34:30
+  - 2023-4-9 18:34:30
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

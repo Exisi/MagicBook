@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SPATIAL
+  - SPATIAL
 date:
-- 2023-3-29 11:04:12
+  - 2023-3-29 11:04:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
@@ -227,7 +228,6 @@ lang=zh-CN>|<br>
 |<span style='mso-spacerun:yes'>    </span>32376 |<br>
 +-----------+<br>
 1 row in set (0.00 sec)</span></p>
-
 
 <p style='font-family:"Microsoft YaHei UI";font-size:11.0pt'><span
 style='font-weight:bold'>注</span></p>

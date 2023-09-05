@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- PRIMARY KEY
+  - PRIMARY KEY
 date:
-- 2023-3-11 21:04:12
+  - 2023-3-11 21:04:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

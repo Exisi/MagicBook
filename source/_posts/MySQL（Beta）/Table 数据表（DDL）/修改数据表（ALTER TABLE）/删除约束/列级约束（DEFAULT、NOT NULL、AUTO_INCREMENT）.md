@@ -1,12 +1,13 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- DEFAULT
-- NOT NULL
-- AUTO_INCREMENT
+  - DDL
+  - DEFAULT
+  - NOT NULL
+  - AUTO_INCREMENT
 date:
-- 2023-1-29 16:07:14
+  - 2023-1-29 16:07:14
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

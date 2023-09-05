@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SHOW INDEX
+  - SHOW INDEX
 date:
-- 2023-3-9 13:14:22
+  - 2023-3-9 13:14:22
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

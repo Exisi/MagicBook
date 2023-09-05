@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- PropertyPlaceholderConfigurer
+  - PropertyPlaceholderConfigurer
 date:
-- 2022-11-28 7:35:01
+  - 2022-11-28 7:35:01
 ---
 
 <ul style="list-style-type:disc">

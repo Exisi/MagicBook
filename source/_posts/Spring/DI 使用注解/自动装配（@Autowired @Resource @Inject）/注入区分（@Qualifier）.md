@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Qualifier］
+  - ［@Qualifier］
 date:
-- 2022-11-28 8:08:34
+  - 2022-11-28 8:08:34
 ---
 
 <ul style="list-style-type:disc">

@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- RIGHT OUTER JOIN
+  - RIGHT OUTER JOIN
 date:
-- 2023-2-27 12:04:02
+  - 2023-2-27 12:04:02
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

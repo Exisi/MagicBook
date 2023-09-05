@@ -1,13 +1,14 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- REGEXP_INSTR()
-- REGEXP_LIKE()
-- REGEXP_REPLACE()
-- REGEXP_SUBSTR()
+  - SELECT
+  - REGEXP_INSTR()
+  - REGEXP_LIKE()
+  - REGEXP_REPLACE()
+  - REGEXP_SUBSTR()
 date:
-- 2023-2-15 14:30:13
+  - 2023-2-15 14:30:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

@@ -1,12 +1,13 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- RENAME TO
-- MODIFY
-- CHANGE
+  - DDL
+  - RENAME TO
+  - MODIFY
+  - CHANGE
 date:
-- 2023-1-29 14:52:33
+  - 2023-1-29 14:52:33
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

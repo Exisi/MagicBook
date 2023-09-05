@@ -1,8 +1,8 @@
 ---
 categories:
-- MySQL
+  - MySQL
 date:
-- 2023-1-23 18:06:51
+  - 2023-1-23 18:06:51
 ---
 
 <html xmlns:o="urn:schemas-microsoft-com:office:office"

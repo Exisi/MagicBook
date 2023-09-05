@@ -1,10 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DCL
+  - DCL
 date:
-- 2023-1-25 11:28:51
+  - 2023-1-25 11:28:51
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>

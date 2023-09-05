@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- collation
+  - DDL
+  - collation
 date:
-- 2023-1-26 16:45:16
+  - 2023-1-26 16:45:16
 ---
 
 <ul style="list-style-type:disc">

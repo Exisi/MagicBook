@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- MapperFactoryBean
+  - MapperFactoryBean
 date:
-- 2022-11-28 8:53:31
+  - 2022-11-28 8:53:31
 ---
 
 <ul style="list-style-type:disc">

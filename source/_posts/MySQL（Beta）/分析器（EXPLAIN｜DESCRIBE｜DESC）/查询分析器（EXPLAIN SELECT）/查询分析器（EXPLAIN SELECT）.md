@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- EXPLAIN SELECT
+  - EXPLAIN SELECT
 date:
-- 2023-4-24 19:24:20
+  - 2023-4-24 19:24:20
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

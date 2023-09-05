@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- EXPLAIN FORMAT = TRADITIONAL | JSON | TREE
+  - EXPLAIN FORMAT = TRADITIONAL | JSON | TREE
 date:
-- 2023-4-23 11:14:20
+  - 2023-4-23 11:14:20
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
@@ -2504,4 +2505,3 @@ style='font-family:"Comic Sans MS"'>&gt; </span></cite></p>
 
 <!--EndFragment-->
 </body>
-

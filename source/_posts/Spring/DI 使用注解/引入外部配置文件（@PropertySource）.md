@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@PropertySource］
+  - ［@PropertySource］
 date:
-- 2022-11-28 8:03:34
+  - 2022-11-28 8:03:34
 ---
 
 <ul style="list-style-type:disc">

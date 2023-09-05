@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- IN NATURAL LANGUAGE MODE
+  - IN NATURAL LANGUAGE MODE
 date:
-- 2023-3-18 10:14:02
+  - 2023-3-18 10:14:02
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

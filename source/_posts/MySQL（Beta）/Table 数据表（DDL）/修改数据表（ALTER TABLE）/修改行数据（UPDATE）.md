@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- UPDATE
+  - DDL
+  - UPDATE
 date:
-- 2023-2-03 9:06:24
+  - 2023-2-03 9:06:24
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

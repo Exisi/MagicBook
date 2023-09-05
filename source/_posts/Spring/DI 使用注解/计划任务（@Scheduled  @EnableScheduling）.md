@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Scheduled］
-- ［@EnableScheduling］
+  - ［@Scheduled］
+  - ［@EnableScheduling］
 date:
-- 2022-11-28 8:17:34
+  - 2022-11-28 8:17:34
 ---
 
 <ul style="list-style-type:disc">

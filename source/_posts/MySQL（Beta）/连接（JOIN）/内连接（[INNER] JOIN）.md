@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- INNER JOIN
+  - INNER JOIN
 date:
-- 2023-2-25 9:02:32
+  - 2023-2-25 9:02:32
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

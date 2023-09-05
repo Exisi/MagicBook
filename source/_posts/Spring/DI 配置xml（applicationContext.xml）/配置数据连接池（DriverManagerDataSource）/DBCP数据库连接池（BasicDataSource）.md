@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- BasicDataSource
+  - BasicDataSource
 date:
-- 2022-11-28 7:37:01
+  - 2022-11-28 7:37:01
 ---
 
 <ul style="list-style-type:disc">

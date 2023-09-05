@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- UNIQUE
+  - UNIQUE
 date:
-- 2023-3-12 09:04:12
+  - 2023-3-12 09:04:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

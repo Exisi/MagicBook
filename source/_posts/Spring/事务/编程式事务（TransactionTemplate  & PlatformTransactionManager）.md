@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- TransactionTemplate
-- PlatformTransactionManager
+  - TransactionTemplate
+  - PlatformTransactionManager
 date:
-- 2022-11-28 9:04:12
+  - 2022-11-28 9:04:12
 ---
 
 <ul style="list-style-type:disc">

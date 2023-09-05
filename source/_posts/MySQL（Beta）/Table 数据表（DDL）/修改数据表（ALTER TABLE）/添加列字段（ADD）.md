@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- ADD
+  - DDL
+  - ADD
 date:
-- 2023-1-29 14:51:23
+  - 2023-1-29 14:51:23
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>
@@ -252,4 +253,3 @@ style='font-weight:bold'>注</span></p>
 
 <!--EndFragment-->
 </body>
-

@@ -1,9 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 date:
-- 2023-1-23 20:08:01
+  - 2023-1-23 20:08:01
 ---
+
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
 <!--StartFragment-->
 

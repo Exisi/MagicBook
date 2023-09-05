@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- FULLTEXT
+  - FULLTEXT
 date:
-- 2023-3-14 10:14:12
+  - 2023-3-14 10:14:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

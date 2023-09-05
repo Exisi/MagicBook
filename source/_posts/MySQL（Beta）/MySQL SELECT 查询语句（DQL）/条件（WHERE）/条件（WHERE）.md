@@ -1,11 +1,12 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DQL
-- SELECT
-- WHERE
+  - DQL
+  - SELECT
+  - WHERE
 date:
-- 2023-2-10 14:20:13
+  - 2023-2-10 14:20:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>
@@ -642,4 +643,3 @@ style='font-family:"Comic Sans MS"' lang=en-US>age &gt; 20;</span></p>
 
 <!--EndFragment-->
 </body>
-

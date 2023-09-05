@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ComboPooledDataSource
+  - ComboPooledDataSource
 date:
-- 2022-11-28 7:38:01
+  - 2022-11-28 7:38:01
 ---
 
 <ul style="list-style-type:disc">

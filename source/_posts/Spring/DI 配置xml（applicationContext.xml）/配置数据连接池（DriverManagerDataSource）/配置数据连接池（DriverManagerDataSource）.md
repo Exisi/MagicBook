@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- DriverManagerDataSource
+  - DriverManagerDataSource
 date:
-- 2022-11-28 7:36:01
+  - 2022-11-28 7:36:01
 ---
 
 <ul style="list-style-type:disc">

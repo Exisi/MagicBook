@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DQL
-- SELECT
+  - DQL
+  - SELECT
 date:
-- 2023-2-08 9:30:06
+  - 2023-2-08 9:30:06
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

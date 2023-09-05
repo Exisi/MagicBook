@@ -1,13 +1,14 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- PRIMARY KEY
-- FORERGN KRY
-- UNIQUE
-- CHECK
+  - DDL
+  - PRIMARY KEY
+  - FORERGN KRY
+  - UNIQUE
+  - CHECK
 date:
-- 2023-1-29 16:08:44
+  - 2023-1-29 16:08:44
 ---
 
 <html xmlns:o="urn:schemas-microsoft-com:office:office"

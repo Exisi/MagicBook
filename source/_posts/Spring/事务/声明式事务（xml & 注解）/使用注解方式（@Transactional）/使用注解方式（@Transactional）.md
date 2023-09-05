@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Transactional］
+  - ［@Transactional］
 date:
-- 2022-11-28 9:02:01
+  - 2022-11-28 9:02:01
 ---
 
 <ul style="list-style-type:disc">

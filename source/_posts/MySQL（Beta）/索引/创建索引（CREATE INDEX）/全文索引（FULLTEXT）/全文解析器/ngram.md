@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- ngram
+  - ngram
 date:
-- 2023-3-26 18:24:12
+  - 2023-3-26 18:24:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

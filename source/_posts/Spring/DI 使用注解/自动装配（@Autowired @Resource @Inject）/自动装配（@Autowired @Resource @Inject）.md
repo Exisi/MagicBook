@@ -1,12 +1,12 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Autowired］
-- ［@Resource］
-- ［@Inject］
+  - ［@Autowired］
+  - ［@Resource］
+  - ［@Inject］
 date:
-- 2022-11-28 8:05:44
+  - 2022-11-28 8:05:44
 ---
 
 <p><span style="font-size:12.0pt"><span style="font-family:&quot;Comic Sans MS&quot;">&nbsp;</span></span></p>

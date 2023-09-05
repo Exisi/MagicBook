@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Value］
+  - ［@Value］
 date:
-- 2022-11-28 8:01:24
+  - 2022-11-28 8:01:24
 ---
 
 <p><span style="font-size:12.0pt"><span

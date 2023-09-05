@@ -1,11 +1,12 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- ALL
-- SOME
-- ANY
+  - ALL
+  - SOME
+  - ANY
 date:
-- 2023-3-2 12:14:02
+  - 2023-3-2 12:14:02
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

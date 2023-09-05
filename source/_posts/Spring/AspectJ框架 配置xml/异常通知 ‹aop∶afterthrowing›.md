@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ‹aop:afterthrowing›
+  - ‹aop:afterthrowing›
 date:
-- 2022-11-28 8:36:42
+  - 2022-11-28 8:36:42
 ---
 
 <ul style="list-style-type:disc">

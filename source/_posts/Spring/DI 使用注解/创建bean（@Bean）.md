@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Bean］
+  - ［@Bean］
 date:
-- 2022-11-28 8:11:53
+  - 2022-11-28 8:11:53
 ---
 
 <ul style="list-style-type:disc">

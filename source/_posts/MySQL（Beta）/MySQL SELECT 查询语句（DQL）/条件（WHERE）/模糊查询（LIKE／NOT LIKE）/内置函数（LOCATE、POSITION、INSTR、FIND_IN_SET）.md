@@ -1,12 +1,13 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- LOCATE
-- POSITION
-- INSTR
-- FIND_IN_SET
+  - LOCATE
+  - POSITION
+  - INSTR
+  - FIND_IN_SET
 date:
-- 2023-2-12 12:10:13
+  - 2023-2-12 12:10:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

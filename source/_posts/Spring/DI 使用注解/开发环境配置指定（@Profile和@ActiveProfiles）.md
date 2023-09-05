@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@Profile］
-- ［@ActiveProfiles］
+  - ［@Profile］
+  - ［@ActiveProfiles］
 date:
-- 2022-11-28 8:16:54
+  - 2022-11-28 8:16:54
 ---
 
 <ul style="list-style-type:disc">

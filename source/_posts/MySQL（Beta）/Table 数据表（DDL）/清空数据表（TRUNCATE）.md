@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- TRUNCATE
+  - DDL
+  - TRUNCATE
 date:
-- 2023-2-06 13:07:20
+  - 2023-2-06 13:07:20
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

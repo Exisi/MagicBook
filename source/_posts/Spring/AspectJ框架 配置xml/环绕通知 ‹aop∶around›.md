@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ‹aop:around›
+  - ‹aop:around›
 date:
-- 2022-11-28 8:35:42
+  - 2022-11-28 8:35:42
 ---
 
 <ul style="list-style-type:disc">

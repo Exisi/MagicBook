@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- character set
+  - DDL
+  - character set
 date:
-- 2023-1-26 3:39:16
+  - 2023-1-26 3:39:16
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>
@@ -140,4 +141,3 @@ font-size:12.0pt'>&nbsp;</p>
 
 <!--EndFragment-->
 </body>
-

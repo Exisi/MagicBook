@@ -1,10 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 tags:
-- Multivalued Dependency
+  - Multivalued Dependency
 date:
-- 2023-1-16 18:38:17
+  - 2023-1-16 18:38:17
 ---
 
 <ul style="list-style-type:disc">

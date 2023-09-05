@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- DI
+  - DI
 date:
-- 2022-11-28 7:49:54
+  - 2022-11-28 7:49:54
 ---
 
 <ul style="list-style-type:disc">

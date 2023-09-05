@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- ON DUPLICATE KEY UPDATE
+  - DDL
+  - ON DUPLICATE KEY UPDATE
 date:
-- 2023-2-01 12:10:34
+  - 2023-2-01 12:10:34
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

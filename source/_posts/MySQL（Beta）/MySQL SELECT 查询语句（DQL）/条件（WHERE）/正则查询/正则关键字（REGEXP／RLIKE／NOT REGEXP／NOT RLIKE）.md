@@ -1,13 +1,14 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- REGEXP
-- RLIKE
-- NOT REGEXP
-- NOT RLIKE
+  - SELECT
+  - REGEXP
+  - RLIKE
+  - NOT REGEXP
+  - NOT RLIKE
 date:
-- 2023-2-14 13:00:13
+  - 2023-2-14 13:00:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

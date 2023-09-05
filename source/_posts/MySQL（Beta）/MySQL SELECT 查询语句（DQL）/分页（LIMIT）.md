@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- LIMIT
+  - SELECT
+  - LIMIT
 date:
-- 2023-2-20 22:31:55
+  - 2023-2-20 22:31:55
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

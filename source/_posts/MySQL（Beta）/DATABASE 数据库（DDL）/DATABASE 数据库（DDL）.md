@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
+  - DDL
 date:
-- 2023-1-25 22:35:36
+  - 2023-1-25 22:35:36
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>
@@ -890,7 +891,3 @@ lang=zh-CN>COLLATE utf8mb4_0900_ai_ci */ /*!80014 DEFAULT ENCRYPTION='N' */</spa
 
 <!--EndFragment-->
 </body>
-
-
-
-

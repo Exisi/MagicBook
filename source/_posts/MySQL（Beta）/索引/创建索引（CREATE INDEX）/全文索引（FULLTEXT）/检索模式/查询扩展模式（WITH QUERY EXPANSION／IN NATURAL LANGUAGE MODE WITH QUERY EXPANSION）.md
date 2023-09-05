@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- WITH QUERY EXPANSION
-- IN NATURAL LANGUAGE MODE WITH QUERY EXPANSION
+  - WITH QUERY EXPANSION
+  - IN NATURAL LANGUAGE MODE WITH QUERY EXPANSION
 date:
-- 2023-3-20 12:24:12
+  - 2023-3-20 12:24:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

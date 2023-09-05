@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ‹aop:aspect›
-- ‹aop:pointcut›
+  - ‹aop:aspect›
+  - ‹aop:pointcut›
 date:
-- 2022-11-28 8:21:34
+  - 2022-11-28 8:21:34
 ---
 
 <table summary="" cellspacing="0"

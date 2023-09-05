@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- IN
-- NOT IN
+  - IN
+  - NOT IN
 date:
-- 2023-3-3 15:14:02
+  - 2023-3-3 15:14:02
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

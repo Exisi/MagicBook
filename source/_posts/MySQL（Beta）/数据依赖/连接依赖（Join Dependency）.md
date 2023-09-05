@@ -1,10 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 tags:
-- Join Dependency
+  - Join Dependency
 date:
-- 2023-1-16 22:39:32
+  - 2023-1-16 22:39:32
 ---
 
 <ul style="list-style-type:disc">

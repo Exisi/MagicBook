@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DROP INDEX
+  - DROP INDEX
 date:
-- 2023-3-30 12:14:12
+  - 2023-3-30 12:14:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

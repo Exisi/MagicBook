@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ‹aop:advisor›
+  - ‹aop:advisor›
 date:
-- 2022-11-28 8:38:32
+  - 2022-11-28 8:38:32
 ---
 
 <ul style="list-style-type:disc">

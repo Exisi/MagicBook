@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- DISTINCT
+  - SELECT
+  - DISTINCT
 date:
-- 2023-2-21 19:21:55
+  - 2023-2-21 19:21:55
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

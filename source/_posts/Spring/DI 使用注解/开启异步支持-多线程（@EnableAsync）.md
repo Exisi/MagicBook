@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@EnableAsync］
+  - ［@EnableAsync］
 date:
-- 2022-11-28 8:15:54
+  - 2022-11-28 8:15:54
 ---
 
 <ul style="list-style-type:disc">

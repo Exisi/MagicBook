@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- AOP
-- AspectJ
+  - AOP
+  - AspectJ
 date:
-- 2022-11-28 8:19:34
+  - 2022-11-28 8:19:34
 ---
 
 <ul style="list-style-type:disc">

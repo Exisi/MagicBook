@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DDL
-- ADD CONSTRAINT
+  - DDL
+  - ADD CONSTRAINT
 date:
-- 2023-1-29 16:05:24
+  - 2023-1-29 16:05:24
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

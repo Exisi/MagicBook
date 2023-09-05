@@ -1,11 +1,12 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- UNION
-- UNION ALL
+  - SELECT
+  - UNION
+  - UNION ALL
 date:
-- 2023-2-22 21:22:12
+  - 2023-2-22 21:22:12
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

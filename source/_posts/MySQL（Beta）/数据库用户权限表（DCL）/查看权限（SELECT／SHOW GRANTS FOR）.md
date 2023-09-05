@@ -1,10 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DCL
+  - DCL
 date:
-- 2023-1-25 10:27:41
+  - 2023-1-25 10:27:41
 ---
 
 <head>
@@ -210,4 +210,3 @@ style='font-family:"Comic Sans MS"'>&gt; </span></cite></p>
 </div>
 
 </div>
-

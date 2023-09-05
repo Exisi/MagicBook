@@ -1,9 +1,10 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- IN BOOLEAN MODE
+  - IN BOOLEAN MODE
 date:
-- 2023-3-19 10:14:02
+  - 2023-3-19 10:14:02
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

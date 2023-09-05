@@ -1,10 +1,11 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- SELECT
-- GROUP BY
+  - SELECT
+  - GROUP BY
 date:
-- 2023-2-16 11:30:13
+  - 2023-2-16 11:30:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

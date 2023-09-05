@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@EnableAspectJAutoProxy］
+  - ［@EnableAspectJAutoProxy］
 date:
-- 2022-11-28 8:41:12
+  - 2022-11-28 8:41:12
 ---
 
 <ul style="list-style-type:disc">

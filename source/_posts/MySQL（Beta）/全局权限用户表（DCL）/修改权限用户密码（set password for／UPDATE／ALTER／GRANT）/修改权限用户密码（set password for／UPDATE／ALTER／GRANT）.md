@@ -1,10 +1,10 @@
 ---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DCL
+  - DCL
 date:
-- 2023-1-24 20:19:45
+  - 2023-1-24 20:19:45
 ---
 
 <body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'>
@@ -332,4 +332,3 @@ IDENTIFIED BY 'newpwd3';</p>
 
 <!--EndFragment-->
 </body>
-

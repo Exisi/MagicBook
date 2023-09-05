@@ -1,11 +1,11 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- ［@PostConstruct］
-- ［@PreDestory］
+  - ［@PostConstruct］
+  - ［@PreDestory］
 date:
-- 2022-11-28 8:12:34
+  - 2022-11-28 8:12:34
 ---
 
 <ul style="list-style-type:disc">

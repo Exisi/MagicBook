@@ -1,12 +1,13 @@
+---
 categories:
-- MySQL
+  - MySQL
 tags:
-- DQL
-- SELECT
-- LIKE
-- NOT LIKE
+  - DQL
+  - SELECT
+  - LIKE
+  - NOT LIKE
 date:
-- 2023-2-11 17:10:13
+  - 2023-2-11 17:10:13
 ---
 
 <body lang=zh-CN style='font-family:"Microsoft YaHei UI";font-size:12.0pt'>

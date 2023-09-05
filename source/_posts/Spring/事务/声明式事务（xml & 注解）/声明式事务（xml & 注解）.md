@@ -1,10 +1,10 @@
 ---
 categories:
-- Spring
+  - Spring
 tags:
-- TransactionManager
+  - TransactionManager
 date:
-- 2022-11-28 8:59:51
+  - 2022-11-28 8:59:51
 ---
 
 <ul style="list-style-type:disc">
