@@ -421,10 +421,23 @@ function toggleAll() {
 }
 
 function switchDarkMode() {
+	let darkModel = localStorage.getItem("darkModel") == null ? 0 : localStorage.getItem("darkModel");
+
+	if (darkModel == 1) {
+		$("#menu .dark-mode i").removeClass("fa-moon-o");
+		$("#menu .dark-mode i").addClass("fa-sun-o");
+		DarkReader.enable({
+			brightness: 100,
+			contrast: 90,
+			sepia: 10,
+		});
+	}
+
 	$("#menu .dark-mode i").on("click", function () {
 		if ($(this).hasClass("fa-moon-o")) {
 			$(this).removeClass("fa-moon-o");
 			$(this).addClass("fa-sun-o");
+			localStorage.setItem("darkModel", 1);
 			return DarkReader.enable({
 				brightness: 100,
 				contrast: 90,
@@ -433,6 +446,7 @@ function switchDarkMode() {
 		}
 		$(this).removeClass("fa-sun-o");
 		$(this).addClass("fa-moon-o");
+		localStorage.setItem("darkModel", 0);
 		return DarkReader.disable();
 	});
 }
