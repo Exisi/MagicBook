@@ -443,7 +443,7 @@ font-size:12.0pt'>&nbsp;</cite></p>
  font-style:normal'>
  <li value=4 style='margin-top:0;margin-bottom:0;vertical-align:middle'><span
      style='font-family:"Microsoft YaHei UI";font-size:12.0pt;font-weight:normal;
-     font-style:normal;font-family:"Microsoft YaHei UI";font-size:12.0pt'>生成的列表达式不允许使用变量（系统变量、用户定义的变量和存储的程序本地变量）。</span></li>
+     font-style:normal;font-family:"Microsoft YaHei UI";font-size:12.0pt'>生成的列表达式不允许使用变量（系统变量、用户定义的变量和存储的程序局部变量）。</span></li>
 </ol>
 
 <p style='margin-left:.75in;font-family:"Comic Sans MS";font-size:
