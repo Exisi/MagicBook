@@ -9,15 +9,13 @@
 所有笔记整理均来源于网络的文章博客等，全部为手动更新，不能保证笔记的时效性，仅供查阅。</p>
 </div>
 
-### 起源
+### 介绍
 
 为了随时查阅笔记，我使用 Hexo 构建了 MagicBook，静态托管于 Vercel
 
-1. 起初受限于 OneNote 笔记的导出问题，得益于项目 [ClipboardViewer](https://github.com/walterlv/ClipboardViewer) 对富文本的快速获取，笔记得以 由 HTML 代码的方式快速导出
+最初受限于 OneNote 笔记的导出，难以将笔记以博客的形式在线化，得益于 [ClipboardViewer](https://github.com/walterlv/ClipboardViewer) 对富文本的快速获取，笔记得以 HTML 代码的方式导出
 
-2. 所有笔记来自 OneNote 笔记富文本 转 HTML 格式，笔记的 Markdown 文件仅用于为笔记添加标签。内容主体还是 HTML 格式
-
-3. 图片为 base64 进行保存 (虽然这看起来不太明智，不过对于大量的笔记，迁移的效率比较高，这也能让我规避需要图床的问题:))
+所有笔记来自 OneNote 笔记富文本转 HTML 格式，Markdown 文件仅用于为笔记添加标签。主体内容为自动生成的 HTML 格式，不建议查看 Markdown 源码
 
 ### 已归档
 
