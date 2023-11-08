@@ -5,15 +5,13 @@
 	<!-- title -->
 	<%
 		let title = page.title;
-		if ( title == '' ) {
-			let title = page.slug.split("/")[page.slug.split("/").length-1]
-		}else {
-			let title = page.title;
-		};
+		if (title == ''){
+			title = page.slug.split("/")[page.slug.split("/").length-1];
+		}
 	%>
 	<title>
 	<% if (title){ %>
-		<%= title %> |
+		<%= title %>&nbsp;&nbsp;✦&nbsp;
 	<% } %>
 	<%= config.title %>
 	</title>
