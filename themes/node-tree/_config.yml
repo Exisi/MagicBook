@@ -9,12 +9,12 @@ favicon: /favicon.ico
 
 #giscus
 giscus:
-    # 评论
+    # 评论s
     enableComment: true
     # Discussion 项目地址
-    repo: Exisi/Exisi
+    repo: Exisi/MagicBook
     # Discussion 项目
-    repoid: MDEwOlJlcG9zaXRvcnkzODU0OTA3MTA=
+    repoid: R_kgDOIfu7zg
     # 反应
     reactions: 1
 
