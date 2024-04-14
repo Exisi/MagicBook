@@ -177,7 +177,9 @@ $(document).ready(function () {
 	switchTreeOrIndex();
 	scrollToTop();
 	pageScroll();
-	wrapImageWithFancyBox();
+	wrapImageWithMagnificPopup();
+	toggleAll();
+	switchDarkMode();
 });
 ```
 
