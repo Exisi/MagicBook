@@ -7,7 +7,7 @@ $(document).ready(function () {
 	switchTreeOrIndex();
 	scrollToTop();
 	pageScroll();
-	wrapImageWithFancyBox();
+	wrapImageWithSimplelightbox();
 	toggleAll();
 	switchDarkMode();
 });
@@ -181,7 +181,7 @@ function pjaxLoad() {
 				}
 				showArticleIndex();
 			}
-			wrapImageWithFancyBox();
+			wrapImageWithSimplelightbox();
 		},
 	});
 }
@@ -341,7 +341,7 @@ function scrollOff() {
 /**
  * Wrap images with fancybox support.
  */
-function wrapImageWithFancyBox() {
+function wrapImageWithSimplelightbox() {
 	$("img")
 		.not("#header img")
 		.each(function () {
@@ -358,18 +358,13 @@ function wrapImageWithFancyBox() {
 				$imageWrapLink = $image.wrap('<a href="' + src + '"></a>').parent("a");
 			}
 
-			$imageWrapLink.attr("data-fancybox", "images");
+			$imageWrapLink.attr("data-magnificPopup", "images");
 			if (imageCaption) {
 				$imageWrapLink.attr("data-caption", imageCaption);
 			}
 		});
 
-	$('[data-fancybox="images"]').fancybox({
-		buttons: ["slideShow", "thumbs", "zoom", "fullScreen", "close"],
-		thumbs: {
-			autoStart: false,
-		},
-	});
+	$('[data-magnificPopup="images"]').magnificPopup({ type: "image" });
 }
 
 function toggleAll() {
