@@ -1,14 +1,10 @@
 # Node Tree Theme Configuration
-## Docs:
 ## Source: https://github.com/Exisi/hexo-theme-node-tree
-
-# Specify github user for header
-github: Exisi
 
 favicon: /favicon.ico
 
-theme_config:
-  _config.node-tree.yml
+# Specify github user for header（username）
+github: Exisi
 
 menu:
   tag:
