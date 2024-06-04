@@ -4,8 +4,8 @@
 
 # Site
 title: 魔法书
-subtitle: ''
-description: ''
+subtitle:
+description: A note blog
 keywords:
 author: Exisi
 language: zh
@@ -13,7 +13,7 @@ timezone: UTC
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://exi.ink
+url: https://m.exi.ink
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
