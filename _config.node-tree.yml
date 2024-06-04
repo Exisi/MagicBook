@@ -1,4 +1,4 @@
-# Node Tree Theme Configuration
+# Node Tree Theme custom Configuration
 ## Docs:
 ## Source: https://github.com/Exisi/hexo-theme-node-tree
 
@@ -30,25 +30,25 @@ footer:
     # If `author` from Hexo `_config.yml` not defined, will be used.
     author:
       name: Exisi
-      url:
-    baseYear: 2024
+      url: https://github.com/Exisi
+    baseYear: 2022
 
 comment:
   giscus:
     enable: false
     enableComment: true
-    repo:
-    repoid:
-    reactions:
+    repo: Exisi/MagicBook
+    repoid: R_kgDOIfu7zg
+    reactions: 1
 
 analysis:
   baidu:
     enable: false
-    src:
+    src: https://hm.baidu.com/hm.js?a678db57b009ca2bf262e45529b0d9eb
   google:
     enable: false
-    src:
-    config:
+    src: https://www.googletagmanager.com/gtag/js?id=G-9T5T0HZ66R
+    config: G-9T5T0HZ66R
 
 statistics:
   busuanzi:

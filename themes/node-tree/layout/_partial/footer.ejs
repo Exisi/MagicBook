@@ -1,9 +1,17 @@
 <div id="footer">
 	<p>
-		©<%- theme.siteStartYear %>-<span id="footerYear"></span>
-		<a href="/"> <%- config.author %> </a>
+		<% if(date(Date.now(), 'YYYY') > theme.footer.copyright.baseYear){ %>
+			©<%- theme.footer.copyright.baseYear %><span>-</span><span><%- date(Date.now(), 'YYYY') %>
+		<% } %>
+		<% if(date(Date.now(), 'YYYY') <= theme.footer.copyright.baseYear){ %>
+			©<%- theme.footer.copyright.baseYear %>
+		<% } %>
+		</span>
+		<a href="<%= theme.footer.copyright.author.url %>">
+			<%- config.author || theme.footer.copyright.author.name %>
+		</a>
 
-		<% if (theme.busuanzi){ %> |
+		<% if (theme.statistics.busuanzi.enable){ %> |
 		<span id="busuanzi_container_site_pv">
 			pv
 			<span id="busuanzi_value_site_pv"></span>
@@ -17,15 +25,11 @@
 		<br />
 		Theme
 		<a
-			href="//github.com/Exisi/MagicBook/tree/main/themes/node-tree"
+			href="https://github.com/Exisi/hexo-theme-node-tree"
 			target="_blank"
 			>Node-Tree</a
 		>
-		by <a href="//github.com/Exisi" target="_blank">Exisi</a> Powered by
-		<a href="//hexo.io" target="_blank">Hexo</a>
+		Powered by
+		<a href="https://hexo.io" target="_blank">Hexo</a>
 	</p>
 </div>
-<script type="text/javascript">
-	document.getElementById("footerYear").innerHTML =
-		new Date().getFullYear() + "";
-</script>

@@ -1,7 +1,6 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-
 	<!-- title -->
 	<%
 		let title = page.title;
@@ -41,11 +40,11 @@
 
 	<!-- search -->
 	<script>
-		let searchEngine = "<%- theme.searchEngine %>";
+		let searchEngine = "<%- theme.sidebar.search.engine %>";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		let homeHost = "<%- theme.homeHost %>";
+		let homeHost = "<%- config.url %>";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -63,24 +62,24 @@
 	<%- js('https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js') %>
 	<%- js('https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js') %>
 	<%- js('js/main.js') %>
-	<% if (theme.busuanzi){ %>
+	<% if (theme.statistics.busuanzi.enable){ %>
 		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	<% } %>
 
-	<% if (theme.baiduanalysis.enable){ %>
+	<% if (theme.analysis.baidu.enable){ %>
 		<script>
 				let _hmt = _hmt || [];
 				(function () {
 					let hm = document.createElement("script");
-					hm.src = "<%- theme.baiduanalysis.src %>";
+					hm.src = "<%- theme.analysis.baidu.src %>";
 					let s = document.getElementsByTagName("script")[0];
 					s.parentNode.insertBefore(hm, s);
 				})();
 		</script>
 	<% } %>
 
-	<% if (theme.googleanalysis.enable){ %>
-		<script async src="<%- theme.googleanalysis.src %>"></script>
+	<% if (theme.analysis.google.enable){ %>
+		<script async src="<%- theme.analysis.google.src %>"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
