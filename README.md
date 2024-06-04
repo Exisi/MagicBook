@@ -23,7 +23,3 @@
 - [MyBatis](https://m.exi.ink/2022/11/27/MyBatis/MyBatis/)
 - [Spring](https://m.exi.ink/2022/11/28/Spring/Spring/)
 - [Spring Boot](https://m.exi.ink/2022/11/28/Spring%20Boot/Spring%20Boot/)
-
-### 主题
-
-[Node-Tree](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree) 是基于 [Tree](https://github.com/wujun234/hexo-theme-tree) 修改的目录结构的树状主题, 如果对主题有兴趣可以前往相关文档进行查看：[Node-Tree 文档](https://github.com/Exisi/MagicBook/tree/main/themes/node-tree)
